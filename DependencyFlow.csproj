@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Humanizer" Version="2.6.2" />
     <PackageReference Include="Microsoft.Extensions.ApiDescription.Client" Version="0.3.0-preview7.19319.3" />
     <PackageReference Include="Newtonsoft.Json" Version="11.0.1" />
     <PackageReference Include="NSwag.ApiDescription.Client" Version="12.3.1">
