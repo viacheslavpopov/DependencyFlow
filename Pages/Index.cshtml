@@ -1,10 +1,22 @@
 ﻿@page
 @model IndexModel
+@inject swaggerClient client
 @{
     ViewData["Title"] = "Home page";
+
+    var latest = await client.GetLatestAsync
+        ("https://github.com/aspnet/AspNetCore",
+        null, null, null, null, null, false, (ApiVersion10)ApiVersion40._20190116);
+    var graph = await client.GetBuildGraphAsync(latest.Id, (ApiVersion9)ApiVersion40._20190116);
+    var build = graph.Builds[latest.Id.ToString()];
 }
 
+
 <div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>@build.AzureDevOpsBuildNumber - @build.Commit - @build.DateProduced</p>
+    @foreach (var depRef in build.Dependencies)
+    {
+        var dep = graph.Builds[depRef.BuildId.ToString()];
+        <p>Build @dep.AzureDevOpsBuildNumber of @dep.GitHubRepository @@ @dep.Commit produced @dep.DateProduced</p>
+    }
 </div>
