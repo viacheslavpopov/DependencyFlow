@@ -4,13 +4,13 @@
 @{
     ViewData["Title"] = "Home page";
 
-    //var latest = await client.GetLatestAsync
-    //    ("https://github.com/aspnet/AspNetCore",
-    //    null, null, null, null, null, false, (ApiVersion10)ApiVersion40._20190116);
-    //var graph = await client.GetBuildGraphAsync(latest.Id, (ApiVersion9)ApiVersion40._20190116);
+    var latest = await client.GetLatestAsync
+        ("https://github.com/aspnet/AspNetCore",
+        null, null, null, null, null, false, (ApiVersion10)ApiVersion40._20190116);
+    var graph = await client.GetBuildGraphAsync(latest.Id, (ApiVersion9)ApiVersion40._20190116);
 
-    var latest = Newtonsoft.Json.JsonConvert.DeserializeObject<Build>(System.IO.File.ReadAllText(@"SampleData\latest.json"));
-    var graph = Newtonsoft.Json.JsonConvert.DeserializeObject<BuildGraph>(System.IO.File.ReadAllText(@"SampleData\graph.json"));
+    //var latest = Newtonsoft.Json.JsonConvert.DeserializeObject<Build>(System.IO.File.ReadAllText(@"SampleData\latest.json"));
+    //var graph = Newtonsoft.Json.JsonConvert.DeserializeObject<BuildGraph>(System.IO.File.ReadAllText(@"SampleData\graph.json"));
     var build = graph.Builds[latest.Id.ToString()];
 }
 
