@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Net.Http.Headers;
 
 namespace DependencyFlow
 {
@@ -27,8 +28,10 @@ namespace DependencyFlow
             services.AddHttpClient<swaggerClient>(client =>
             {
                 var authToken = Configuration["AuthToken"];
+                client.DefaultRequestHeaders.Add(HeaderNames.UserAgent, "Kevin's cool thing.");
                 client.DefaultRequestHeaders.Add(
-                    "Authorize", new AuthenticationHeaderValue("msft", authToken).ToString());
+                    HeaderNames.Authorization, 
+                    new AuthenticationHeaderValue("Bearer", authToken).ToString());
             });
 
             services.AddRazorPages();
