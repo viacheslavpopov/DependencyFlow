@@ -8,7 +8,7 @@
 @{
     ViewData["Title"] = "Home page";
 
-    var useSampleData = true;
+    var useSampleData = false;
 
     var latest = useSampleData
         ? JsonConvert.DeserializeObject<Build>(System.IO.File.ReadAllText(@"SampleData\latest.json"))

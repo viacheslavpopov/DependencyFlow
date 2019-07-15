@@ -11,7 +11,7 @@ namespace DependencyFlow
     [System.CodeDom.Compiler.GeneratedCode("NSwag", "12.0.0.0 (NJsonSchema v9.12.2.0 (Newtonsoft.Json v11.0.0.0))")]
     public partial class swaggerClient 
     {
-        private string _baseUrl = "https://maestro-int.westus2.cloudapp.azure.com";
+        private string _baseUrl = "https://maestro-prod.westus2.cloudapp.azure.com/";
         private System.Net.Http.HttpClient _httpClient;
         private System.Lazy<Newtonsoft.Json.JsonSerializerSettings> _settings;
     
