@@ -1,24 +1,58 @@
 ﻿@page
 @model IndexModel
 @inject swaggerClient client
+
+@using Humanizer;
+@using Newtonsoft.Json;
+
 @{
     ViewData["Title"] = "Home page";
 
-    var latest = await client.GetLatestAsync
-        ("https://github.com/aspnet/AspNetCore",
-        null, null, null, null, null, false, (ApiVersion10)ApiVersion40._20190116);
-    var graph = await client.GetBuildGraphAsync(latest.Id, (ApiVersion9)ApiVersion40._20190116);
+    var useSampleData = true;
 
-    //var latest = Newtonsoft.Json.JsonConvert.DeserializeObject<Build>(System.IO.File.ReadAllText(@"SampleData\latest.json"));
-    //var graph = Newtonsoft.Json.JsonConvert.DeserializeObject<BuildGraph>(System.IO.File.ReadAllText(@"SampleData\graph.json"));
+    var latest = useSampleData
+        ? JsonConvert.DeserializeObject<Build>(System.IO.File.ReadAllText(@"SampleData\latest.json"))
+        : await client.GetLatestAsync("https://github.com/aspnet/AspNetCore",
+            null, null, null, null, null, false, (ApiVersion10)ApiVersion40._20190116);
+    var graph = useSampleData
+        ? JsonConvert.DeserializeObject<BuildGraph>(System.IO.File.ReadAllText(@"SampleData\graph.json"))
+        : await client.GetBuildGraphAsync(latest.Id, (ApiVersion9)ApiVersion40._20190116);
+
     var build = graph.Builds[latest.Id.ToString()];
 }
 
 
-<div class="text-center">
-    <p>@build.AzureDevOpsBuildNumber - @build.Commit - @build.DateProduced</p>
+<div class="text-xl-left">
+    @build.AzureDevOpsBuildNumber - @Html.Raw(LinkFor(build.GitHubRepository, build.Commit)) - @build.DateProduced.Humanize()
+</div>
     @foreach (var dep in build.Dependencies.Select(dr => graph.Builds[dr.BuildId.ToString()]).OrderByDescending(b => b.DateProduced))
     {
-        <p>Build @dep.AzureDevOpsBuildNumber of @dep.GitHubRepository.Substring("https://github.com/".Length) @@ @dep.Commit.Substring(0, 6) produced @dep.DateProduced</p>
+        <div class="text-left">
+            Build @dep.AzureDevOpsBuildNumber
+            of @Html.Raw(LinkFor(dep.GitHubRepository, dep.Commit))
+            produced @dep.DateProduced.Humanize()
+        </div>
     }
-</div>
+
+@functions
+{
+    string DisplayFor(string repository, string commit)
+    {
+        return string.Concat(repository.Substring("https://github.com/".Length), "@", DisplayCommit(commit));
+    }
+
+    string LinkTargetFor(string repository, string commit)
+    {
+        return string.Concat(repository, "/commit/", commit);
+    }
+
+    string DisplayCommit(string commit)
+    {
+        return commit.Substring(0, 6);
+    }
+
+    string LinkFor(string repository, string commit)
+    {
+        return $@"<a href=""{LinkTargetFor(repository, commit)}"">{DisplayFor(repository, commit)}</a>";
+    }
+}
