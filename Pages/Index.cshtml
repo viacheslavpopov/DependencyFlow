@@ -22,17 +22,22 @@
 }
 
 
-<div class="text-xl-left">
-    @build.AzureDevOpsBuildNumber - @Html.Raw(LinkFor(build.GitHubRepository, build.Commit)) - @build.DateProduced.Humanize()
+<div class="row">
+    <div class="col">
+        @build.AzureDevOpsBuildNumber - @Html.Raw(LinkFor(build.GitHubRepository, build.Commit)) - @build.DateProduced.Humanize()
+    </div>
 </div>
-    @foreach (var dep in build.Dependencies.Select(dr => graph.Builds[dr.BuildId.ToString()]).OrderByDescending(b => b.DateProduced))
-    {
-        <div class="text-left">
+<hr />
+@foreach (var dep in build.Dependencies.Select(dr => graph.Builds[dr.BuildId.ToString()]).OrderByDescending(b => b.DateProduced))
+{
+    <div class="row">
+        <div class="col">
             Build @dep.AzureDevOpsBuildNumber
             of @Html.Raw(LinkFor(dep.GitHubRepository, dep.Commit))
             produced @dep.DateProduced.Humanize()
         </div>
-    }
+    </div>
+}
 
 @functions
 {
