@@ -35,7 +35,7 @@ namespace DependencyFlow.Pages
             {
                 repo = $"https://github.com/{match.Groups["owner"].Value}/{match.Groups["repo"].Value}";
             }
-            return Redirect(Url.Page("Widget", new { channelId, repo }));
+            return Redirect(Url.Page("Incoming", new { channelId, repo }));
         }
     }
 }

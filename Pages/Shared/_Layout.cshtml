@@ -1,4 +1,10 @@
-﻿<!DOCTYPE html>
+﻿@{ 
+    var darkMode = string.Equals(Context.Request.Query["theme"], "dark")
+        ? "dark-mode"
+        : null;
+}
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -7,7 +13,7 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
-<body>
+<body class="@darkMode">
     <div class="container-fluid">
         <main role="main" class="pb-3">
             @RenderBody()
