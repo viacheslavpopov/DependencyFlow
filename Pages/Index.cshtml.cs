@@ -1,25 +1,41 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.Extensions.Logging;
 
 namespace DependencyFlow.Pages
 {
     public class IndexModel : PageModel
     {
-        private readonly ILogger<IndexModel> _logger;
+        private static readonly Regex _repoReferenceParser = new Regex(@"^(?<owner>[A-Za-z0-9-_\.]+)/(?<repo>[A-Za-z0-9-_\.]+)");
 
-        public IndexModel(ILogger<IndexModel> logger)
+        private readonly swaggerClient _client;
+
+        public IndexModel(swaggerClient client)
         {
-            _logger = logger;
+            _client = client;
         }
 
-        public void OnGet()
-        {
+        public IReadOnlyList<(string Name, int Id)> Channels { get; private set; }
 
+        public async Task OnGet()
+        {
+            Channels = (await _client.ListChannelsAsync(classification: null, ApiVersion11._20190116))
+                .Select(c => (c.Name, c.Id))
+                .ToList();
+        }
+
+        public IActionResult OnPost(int channelId, string repo)
+        {
+            var match = _repoReferenceParser.Match(repo);
+            if(match.Success)
+            {
+                repo = $"https://github.com/{match.Groups["owner"].Value}/{match.Groups["repo"].Value}";
+            }
+            return Redirect(Url.Page("Widget", new { channelId, repo }));
         }
     }
 }
