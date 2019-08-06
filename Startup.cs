@@ -1,20 +1,18 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http.Headers;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Net.Http.Headers;
+using Octokit;
 
 namespace DependencyFlow
 {
     public class Startup
     {
+        private const string UserAgentValue = "DependencyFlow";
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -28,10 +26,21 @@ namespace DependencyFlow
             services.AddHttpClient<swaggerClient>(client =>
             {
                 var authToken = Configuration["AuthToken"];
-                client.DefaultRequestHeaders.Add(HeaderNames.UserAgent, "Kevin's cool thing.");
+                client.DefaultRequestHeaders.Add(HeaderNames.UserAgent, UserAgentValue);
                 client.DefaultRequestHeaders.Add(
                     HeaderNames.Authorization, 
                     new AuthenticationHeaderValue("Bearer", authToken).ToString());
+            });
+
+            services.AddScoped((_) =>
+            {
+                var authToken = Configuration["GitHubToken"];
+                var client = new GitHubClient(new Octokit.ProductHeaderValue(UserAgentValue));
+                if (!string.IsNullOrEmpty(authToken))
+                {
+                    client.Credentials = new Credentials(authToken);
+                }
+                return client;
             });
 
             services.AddRazorPages();

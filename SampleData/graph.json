@@ -1,1 +1,1144 @@
-{"builds":{"8801":{"id":8801,"commit":"b9a720984fa4d6454d1c66ae765bc1e34cb1d206","azureDevOpsBuildId":163026,"azureDevOpsBuildDefinitionId":288,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190420.01","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/core-setup","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-04-20T10:12:02Z","channels":null,"assets":null,"dependencies":[]},"9910":{"id":9910,"commit":"a7a250e9c13147134543c35fef2fb81f19592edf","azureDevOpsBuildId":173444,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190429.8","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-04-30T05:30:52Z","channels":null,"assets":null,"dependencies":[]},"10393":{"id":10393,"commit":"1b8589bbf53b9a5e819460798eff59830f39a3be","azureDevOpsBuildId":179420,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190504.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-05-04T12:58:49Z","channels":null,"assets":null,"dependencies":[]},"10678":{"id":10678,"commit":"c31fac9f6899094226cb5cd77c85b8f60ecafa3d","azureDevOpsBuildId":181652,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190506.12","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-05-07T05:12:34Z","channels":null,"assets":null,"dependencies":[]},"10799":{"id":10799,"commit":"bda52d7619f9420de46f2c39ffc972864bbcab63","azureDevOpsBuildId":182694,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190507.7","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-05-08T00:49:52Z","channels":null,"assets":null,"dependencies":[]},"10912":{"id":10912,"commit":"db72bf1818ade45a480461868abd67ab2fe03c35","azureDevOpsBuildId":184152,"azureDevOpsBuildDefinitionId":237,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190509.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-optimization","azureDevOpsBranch":"refs/heads/master","gitHubRepository":null,"gitHubBranch":null,"publishUsingPipelines":false,"dateProduced":"2019-05-09T11:02:18Z","channels":null,"assets":null,"dependencies":[]},"10913":{"id":10913,"commit":"f7cd353ab8b08ff45d45985851505e5f8f19f9ac","azureDevOpsBuildId":184139,"azureDevOpsBuildDefinitionId":283,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190509.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-corefx","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/corefx","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-05-09T11:13:51Z","channels":null,"assets":null,"dependencies":[]},"11017":{"id":11017,"commit":"d2be6e027cb7d128e710a8f2efa97fff82ecff20","azureDevOpsBuildId":185416,"azureDevOpsBuildDefinitionId":237,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190510.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-optimization","azureDevOpsBranch":"refs/heads/master","gitHubRepository":null,"gitHubBranch":null,"publishUsingPipelines":false,"dateProduced":"2019-05-10T11:16:03Z","channels":null,"assets":null,"dependencies":[]},"11022":{"id":11022,"commit":"48431cc037776ca359de36bf71bda8c154cc2aa9","azureDevOpsBuildId":185433,"azureDevOpsBuildDefinitionId":244,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190510.71","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-coreclr","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/coreclr","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-05-10T12:39:15Z","channels":null,"assets":null,"dependencies":[{"buildId":8801,"isProduct":false},{"buildId":9910,"isProduct":false},{"buildId":10799,"isProduct":false},{"buildId":10912,"isProduct":false},{"buildId":10913,"isProduct":false}]},"11365":{"id":11365,"commit":"f5be0283c5e00dd823a41f671f9c9a41170f0a85","azureDevOpsBuildId":188257,"azureDevOpsBuildDefinitionId":283,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190513.9","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-corefx","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/corefx","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-05-14T07:47:00Z","channels":null,"assets":null,"dependencies":[]},"11366":{"id":11366,"commit":"91a4df0883082c784b0826874874d65b3fcf79ba","azureDevOpsBuildId":188273,"azureDevOpsBuildDefinitionId":288,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190513.13","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/core-setup","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-05-14T08:02:28Z","channels":null,"assets":null,"dependencies":[]},"11418":{"id":11418,"commit":"7053cdf764a6e08a356573bd447b44c85190de0e","azureDevOpsBuildId":188859,"azureDevOpsBuildDefinitionId":246,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190514.3","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-standard","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/standard","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-05-14T18:43:23Z","channels":null,"assets":null,"dependencies":[]},"11464":{"id":11464,"commit":"a28176b5ec68b6da1472934fe9493790d1665cae","azureDevOpsBuildId":189417,"azureDevOpsBuildDefinitionId":283,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190514.9","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-corefx","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/corefx","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-05-15T04:59:14Z","channels":null,"assets":null,"dependencies":[{"buildId":9910,"isProduct":false},{"buildId":10393,"isProduct":false},{"buildId":10678,"isProduct":false},{"buildId":10799,"isProduct":false},{"buildId":11017,"isProduct":false},{"buildId":11022,"isProduct":true},{"buildId":11365,"isProduct":false},{"buildId":11366,"isProduct":false},{"buildId":11418,"isProduct":false}]},"15399":{"id":15399,"commit":"9946534da4f73e6242ca105f6798ab58119c9ab0","azureDevOpsBuildId":235915,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190623.4","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-06-24T07:07:40Z","channels":null,"assets":null,"dependencies":[]},"17004":{"id":17004,"commit":"3e0cbbc6fd6c6d45d7083ee0deb71cec7ea2d91f","azureDevOpsBuildId":253168,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190705.2","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-05T23:56:33Z","channels":null,"assets":null,"dependencies":[]},"17033":{"id":17033,"commit":"7e2a0091dd81c0cb17ceb7bdc4d67aed67dbec66","azureDevOpsBuildId":253404,"azureDevOpsBuildDefinitionId":135,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190705.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/aspnet-Blazor","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/aspnet/Blazor","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-06T05:03:58Z","channels":null,"assets":null,"dependencies":[{"buildId":17004,"isProduct":false}]},"17063":{"id":17063,"commit":"a65d0966dc28861394ce78cfdcb9d5dff370957c","azureDevOpsBuildId":253596,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190706.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-06T12:53:18Z","channels":null,"assets":null,"dependencies":[]},"17121":{"id":17121,"commit":"15abdfc3816352c64098735b79a98dd97524ee36","azureDevOpsBuildId":253993,"azureDevOpsBuildDefinitionId":283,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190706.5","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-corefx","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/corefx","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-07T01:21:39Z","channels":null,"assets":null,"dependencies":[]},"17236":{"id":17236,"commit":"3b426f78a3aab1a45f797ac22e70fd203165d810","azureDevOpsBuildId":254770,"azureDevOpsBuildDefinitionId":283,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190707.5","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-corefx","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/corefx","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-08T04:45:30Z","channels":null,"assets":null,"dependencies":[]},"17242":{"id":17242,"commit":"fc924dc319cde4a8c2f8c6cc715772a0eac933a1","azureDevOpsBuildId":254818,"azureDevOpsBuildDefinitionId":288,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190707.09","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/core-setup","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-08T06:39:32Z","channels":null,"assets":null,"dependencies":[]},"17245":{"id":17245,"commit":"4953cdf6c956adf69a0050c4df503048aed6b271","azureDevOpsBuildId":254848,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190708.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-08T07:34:34Z","channels":null,"assets":null,"dependencies":[]},"17250":{"id":17250,"commit":"d39ddd0e9998600cf34f654177db53a97ef2fec7","azureDevOpsBuildId":254903,"azureDevOpsBuildDefinitionId":237,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190708.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-optimization","azureDevOpsBranch":"refs/heads/master","gitHubRepository":null,"gitHubBranch":null,"publishUsingPipelines":false,"dateProduced":"2019-07-08T11:14:34Z","channels":null,"assets":null,"dependencies":[]},"17261":{"id":17261,"commit":"085398b5c6913b03180c855f56b967e2a7d6edde","azureDevOpsBuildId":254920,"azureDevOpsBuildDefinitionId":244,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190708.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-coreclr","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/coreclr","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-08T12:44:06Z","channels":null,"assets":null,"dependencies":[]},"17274":{"id":17274,"commit":"46d64281c0848ee208045ba2d59d7059ce680266","azureDevOpsBuildId":255103,"azureDevOpsBuildDefinitionId":246,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190708.2","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-standard","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/standard","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-08T13:22:13Z","channels":null,"assets":null,"dependencies":[]},"17343":{"id":17343,"commit":"b5bc9638f43e365197136f3724a81e5131b1ce6c","azureDevOpsBuildId":255689,"azureDevOpsBuildDefinitionId":280,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190708.7","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-wpf-int","azureDevOpsBranch":"refs/heads/master","gitHubRepository":null,"gitHubBranch":null,"publishUsingPipelines":true,"dateProduced":"2019-07-09T00:39:16Z","channels":null,"assets":null,"dependencies":[]},"17382":{"id":17382,"commit":"bfa7b12fb8a3424e4bc5c6e553d9999bb605d397","azureDevOpsBuildId":256110,"azureDevOpsBuildDefinitionId":283,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190708.6","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-corefx","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/corefx","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-09T04:54:05Z","channels":null,"assets":null,"dependencies":[]},"17392":{"id":17392,"commit":"ef3834feb8615429a58808cdcf9ad9284d767654","azureDevOpsBuildId":256253,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190709.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-09T07:41:59Z","channels":null,"assets":null,"dependencies":[]},"17432":{"id":17432,"commit":"705a6d8ce1a073d58fffa8ab9f25a7b8112d6b6b","azureDevOpsBuildId":256602,"azureDevOpsBuildDefinitionId":288,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190709.01","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/core-setup","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-09T15:11:38Z","channels":null,"assets":null,"dependencies":[]},"17456":{"id":17456,"commit":"bd1ec4e2cdab8e536cdb48670843904310a1854a","azureDevOpsBuildId":257056,"azureDevOpsBuildDefinitionId":164,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190709.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-winforms","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/winforms","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-09T20:07:30Z","channels":null,"assets":null,"dependencies":[{"buildId":15399,"isProduct":false},{"buildId":17261,"isProduct":false},{"buildId":17382,"isProduct":false},{"buildId":17432,"isProduct":false}]},"17459":{"id":17459,"commit":"17aaaf42dfcf86952acf0c7f788887623e7f4095","azureDevOpsBuildId":2835047,"azureDevOpsBuildDefinitionId":8972,"azureDevOpsAccount":"devdiv","azureDevOpsProject":"DevDiv","azureDevOpsBuildNumber":"20190709.5","azureDevOpsRepository":"https://github.com/dotnet/roslyn","azureDevOpsBranch":"refs/heads/master-vs-deps","gitHubRepository":"https://github.com/dotnet/roslyn","gitHubBranch":"refs/heads/master-vs-deps","publishUsingPipelines":false,"dateProduced":"2019-07-09T20:38:03Z","channels":null,"assets":null,"dependencies":[]},"17461":{"id":17461,"commit":"66d06b9c1c99deb4a4ac74274ac0f2924d557046","azureDevOpsBuildId":257127,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190709.4","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-09T21:01:13Z","channels":null,"assets":null,"dependencies":[]},"17463":{"id":17463,"commit":"ea72094ebe0de0da03c591752559739d6fb67f03","azureDevOpsBuildId":257201,"azureDevOpsBuildDefinitionId":217,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190709.5","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-wpf","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/wpf","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-09T21:32:33Z","channels":null,"assets":null,"dependencies":[{"buildId":17261,"isProduct":false},{"buildId":17343,"isProduct":false},{"buildId":17382,"isProduct":false},{"buildId":17392,"isProduct":false},{"buildId":17432,"isProduct":false},{"buildId":17456,"isProduct":true}]},"17471":{"id":17471,"commit":"ae34b415d3e316af02bd0a3898a04dd19a7a4c9d","azureDevOpsBuildId":257305,"azureDevOpsBuildDefinitionId":280,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190709.6","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-wpf-int","azureDevOpsBranch":"refs/heads/master","gitHubRepository":null,"gitHubBranch":null,"publishUsingPipelines":true,"dateProduced":"2019-07-09T22:26:37Z","channels":null,"assets":null,"dependencies":[{"buildId":17382,"isProduct":false},{"buildId":17392,"isProduct":false},{"buildId":17432,"isProduct":false},{"buildId":17456,"isProduct":true},{"buildId":17463,"isProduct":true}]},"17490":{"id":17490,"commit":"48ff0937552e540f21835391b693daf47ffabece","azureDevOpsBuildId":257541,"azureDevOpsBuildDefinitionId":244,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190709.2","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-coreclr","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/coreclr","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-10T00:50:12Z","channels":null,"assets":null,"dependencies":[{"buildId":17121,"isProduct":false},{"buildId":17242,"isProduct":false},{"buildId":17245,"isProduct":false},{"buildId":17250,"isProduct":false}]},"17668":{"id":17668,"commit":"a6ae1b637ed236354529992729af875f6c8a180a","azureDevOpsBuildId":259432,"azureDevOpsBuildDefinitionId":6,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190710.8","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-arcade","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/arcade","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-10T23:51:41Z","channels":null,"assets":null,"dependencies":[]},"17678":{"id":17678,"commit":"ef2f9f41555c453451a5003f1be4bb9888ab078d","azureDevOpsBuildId":259509,"azureDevOpsBuildDefinitionId":244,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190710.2","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-coreclr","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/coreclr","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-11T00:44:03Z","channels":null,"assets":null,"dependencies":[{"buildId":17121,"isProduct":false},{"buildId":17242,"isProduct":false},{"buildId":17245,"isProduct":false},{"buildId":17250,"isProduct":false}]},"17721":{"id":17721,"commit":"e75dd151c9e5aa94cf33c7c9d14a53180df747dd","azureDevOpsBuildId":259857,"azureDevOpsBuildDefinitionId":283,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190710.10","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-corefx","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/corefx","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-11T05:40:43Z","channels":null,"assets":null,"dependencies":[]},"17752":{"id":17752,"commit":"a393ffee970c6d962c5830bb1c6fa4c3a3e268a6","azureDevOpsBuildId":260111,"azureDevOpsBuildDefinitionId":283,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190711.1","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-corefx","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/corefx","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-11T12:38:27Z","channels":null,"assets":null,"dependencies":[{"buildId":17236,"isProduct":false},{"buildId":17242,"isProduct":false},{"buildId":17250,"isProduct":false},{"buildId":17274,"isProduct":false},{"buildId":17461,"isProduct":false},{"buildId":17490,"isProduct":true}]},"17761":{"id":17761,"commit":"b92ad4e064e79f7510f9caafe4a0e5db6f488466","azureDevOpsBuildId":260293,"azureDevOpsBuildDefinitionId":246,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190711.2","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-standard","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/standard","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-11T13:11:53Z","channels":null,"assets":null,"dependencies":[{"buildId":17668,"isProduct":false},{"buildId":17721,"isProduct":false}]},"17778":{"id":17778,"commit":"3ca720b8a2dc8f711a4762729d5c6a223ecc523a","azureDevOpsBuildId":260384,"azureDevOpsBuildDefinitionId":288,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190711.04","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/dotnet/core-setup","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-11T16:45:25Z","channels":null,"assets":null,"dependencies":[{"buildId":17456,"isProduct":true},{"buildId":17463,"isProduct":true},{"buildId":17471,"isProduct":true},{"buildId":17668,"isProduct":false},{"buildId":17678,"isProduct":true},{"buildId":17752,"isProduct":true},{"buildId":17761,"isProduct":true}]},"17804":{"id":17804,"commit":"340377c1b06f9eb34d018f84bea69119fb622093","azureDevOpsBuildId":260646,"azureDevOpsBuildDefinitionId":179,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190711.5","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/aspnet-Extensions","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/aspnet/Extensions","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-11T18:01:37Z","channels":null,"assets":null,"dependencies":[{"buildId":17245,"isProduct":false},{"buildId":17459,"isProduct":false},{"buildId":17752,"isProduct":true},{"buildId":17778,"isProduct":true}]},"17818":{"id":17818,"commit":"a23fdc5348f411e8fcc29761fb03cf74b1c4f970","azureDevOpsBuildId":260809,"azureDevOpsBuildDefinitionId":262,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190711.5","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/aspnet-AspNetCore-Tooling","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/aspnet/AspNetCore-Tooling","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-11T19:15:57Z","channels":null,"assets":null,"dependencies":[{"buildId":17245,"isProduct":false},{"buildId":17459,"isProduct":false},{"buildId":17752,"isProduct":true},{"buildId":17778,"isProduct":true},{"buildId":17804,"isProduct":true}]},"17827":{"id":17827,"commit":"c916044ea14b17159b7c2cb5f5848bf43f15efc7","azureDevOpsBuildId":260879,"azureDevOpsBuildDefinitionId":229,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190711.7","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/aspnet-EntityFrameworkCore","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/aspnet/EntityFrameworkCore","gitHubBranch":"refs/heads/master","publishUsingPipelines":true,"dateProduced":"2019-07-11T19:50:01Z","channels":null,"assets":null,"dependencies":[{"buildId":17245,"isProduct":false},{"buildId":17459,"isProduct":false},{"buildId":17752,"isProduct":true},{"buildId":17778,"isProduct":true},{"buildId":17804,"isProduct":true}]},"18009":{"id":18009,"commit":"840c226e28ada143d9801be9917975ceb4ca625a","azureDevOpsBuildId":262611,"azureDevOpsBuildDefinitionId":31,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190712.2","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/aspnet-AspNetCore","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/aspnet/AspNetCore","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-12T20:48:53Z","channels":null,"assets":null,"dependencies":[{"buildId":11464,"isProduct":true},{"buildId":17033,"isProduct":true},{"buildId":17063,"isProduct":false},{"buildId":17459,"isProduct":false},{"buildId":17752,"isProduct":true},{"buildId":17778,"isProduct":true},{"buildId":17804,"isProduct":true},{"buildId":17818,"isProduct":true},{"buildId":17827,"isProduct":true}]}}}
+{
+  "builds": {
+    "8801": {
+      "id": 8801,
+      "commit": "b9a720984fa4d6454d1c66ae765bc1e34cb1d206",
+      "azureDevOpsBuildId": 163026,
+      "azureDevOpsBuildDefinitionId": 288,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190420.01",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/core-setup",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-04-20T10:12:02Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "9910": {
+      "id": 9910,
+      "commit": "a7a250e9c13147134543c35fef2fb81f19592edf",
+      "azureDevOpsBuildId": 173444,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190429.8",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-04-30T05:30:52Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "10393": {
+      "id": 10393,
+      "commit": "1b8589bbf53b9a5e819460798eff59830f39a3be",
+      "azureDevOpsBuildId": 179420,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190504.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-05-04T12:58:49Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "10678": {
+      "id": 10678,
+      "commit": "c31fac9f6899094226cb5cd77c85b8f60ecafa3d",
+      "azureDevOpsBuildId": 181652,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190506.12",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-05-07T05:12:34Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "10799": {
+      "id": 10799,
+      "commit": "bda52d7619f9420de46f2c39ffc972864bbcab63",
+      "azureDevOpsBuildId": 182694,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190507.7",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-05-08T00:49:52Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "10912": {
+      "id": 10912,
+      "commit": "db72bf1818ade45a480461868abd67ab2fe03c35",
+      "azureDevOpsBuildId": 184152,
+      "azureDevOpsBuildDefinitionId": 237,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190509.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-optimization",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": null,
+      "gitHubBranch": null,
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-05-09T11:02:18Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "10913": {
+      "id": 10913,
+      "commit": "f7cd353ab8b08ff45d45985851505e5f8f19f9ac",
+      "azureDevOpsBuildId": 184139,
+      "azureDevOpsBuildDefinitionId": 283,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190509.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-corefx",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/corefx",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-05-09T11:13:51Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "11017": {
+      "id": 11017,
+      "commit": "d2be6e027cb7d128e710a8f2efa97fff82ecff20",
+      "azureDevOpsBuildId": 185416,
+      "azureDevOpsBuildDefinitionId": 237,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190510.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-optimization",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": null,
+      "gitHubBranch": null,
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-05-10T11:16:03Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "11022": {
+      "id": 11022,
+      "commit": "48431cc037776ca359de36bf71bda8c154cc2aa9",
+      "azureDevOpsBuildId": 185433,
+      "azureDevOpsBuildDefinitionId": 244,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190510.71",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-coreclr",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/coreclr",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-05-10T12:39:15Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 8801,
+          "isProduct": false
+        },
+        {
+          "buildId": 9910,
+          "isProduct": false
+        },
+        {
+          "buildId": 10799,
+          "isProduct": false
+        },
+        {
+          "buildId": 10912,
+          "isProduct": false
+        },
+        {
+          "buildId": 10913,
+          "isProduct": false
+        }
+      ]
+    },
+    "11365": {
+      "id": 11365,
+      "commit": "f5be0283c5e00dd823a41f671f9c9a41170f0a85",
+      "azureDevOpsBuildId": 188257,
+      "azureDevOpsBuildDefinitionId": 283,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190513.9",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-corefx",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/corefx",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-05-14T07:47:00Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "11366": {
+      "id": 11366,
+      "commit": "91a4df0883082c784b0826874874d65b3fcf79ba",
+      "azureDevOpsBuildId": 188273,
+      "azureDevOpsBuildDefinitionId": 288,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190513.13",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/core-setup",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-05-14T08:02:28Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "11418": {
+      "id": 11418,
+      "commit": "7053cdf764a6e08a356573bd447b44c85190de0e",
+      "azureDevOpsBuildId": 188859,
+      "azureDevOpsBuildDefinitionId": 246,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190514.3",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-standard",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/standard",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-05-14T18:43:23Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "11464": {
+      "id": 11464,
+      "commit": "a28176b5ec68b6da1472934fe9493790d1665cae",
+      "azureDevOpsBuildId": 189417,
+      "azureDevOpsBuildDefinitionId": 283,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190514.9",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-corefx",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/corefx",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-05-15T04:59:14Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 9910,
+          "isProduct": false
+        },
+        {
+          "buildId": 10393,
+          "isProduct": false
+        },
+        {
+          "buildId": 10678,
+          "isProduct": false
+        },
+        {
+          "buildId": 10799,
+          "isProduct": false
+        },
+        {
+          "buildId": 11017,
+          "isProduct": false
+        },
+        {
+          "buildId": 11022,
+          "isProduct": true
+        },
+        {
+          "buildId": 11365,
+          "isProduct": false
+        },
+        {
+          "buildId": 11366,
+          "isProduct": false
+        },
+        {
+          "buildId": 11418,
+          "isProduct": false
+        }
+      ]
+    },
+    "15399": {
+      "id": 15399,
+      "commit": "9946534da4f73e6242ca105f6798ab58119c9ab0",
+      "azureDevOpsBuildId": 235915,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190623.4",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-06-24T07:07:40Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17004": {
+      "id": 17004,
+      "commit": "3e0cbbc6fd6c6d45d7083ee0deb71cec7ea2d91f",
+      "azureDevOpsBuildId": 253168,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190705.2",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-05T23:56:33Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17033": {
+      "id": 17033,
+      "commit": "7e2a0091dd81c0cb17ceb7bdc4d67aed67dbec66",
+      "azureDevOpsBuildId": 253404,
+      "azureDevOpsBuildDefinitionId": 135,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190705.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/aspnet-Blazor",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/aspnet/Blazor",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-06T05:03:58Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17004,
+          "isProduct": false
+        }
+      ]
+    },
+    "17063": {
+      "id": 17063,
+      "commit": "a65d0966dc28861394ce78cfdcb9d5dff370957c",
+      "azureDevOpsBuildId": 253596,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190706.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-06T12:53:18Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17121": {
+      "id": 17121,
+      "commit": "15abdfc3816352c64098735b79a98dd97524ee36",
+      "azureDevOpsBuildId": 253993,
+      "azureDevOpsBuildDefinitionId": 283,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190706.5",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-corefx",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/corefx",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-07T01:21:39Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17236": {
+      "id": 17236,
+      "commit": "3b426f78a3aab1a45f797ac22e70fd203165d810",
+      "azureDevOpsBuildId": 254770,
+      "azureDevOpsBuildDefinitionId": 283,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190707.5",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-corefx",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/corefx",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-08T04:45:30Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17242": {
+      "id": 17242,
+      "commit": "fc924dc319cde4a8c2f8c6cc715772a0eac933a1",
+      "azureDevOpsBuildId": 254818,
+      "azureDevOpsBuildDefinitionId": 288,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190707.09",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/core-setup",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-08T06:39:32Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17245": {
+      "id": 17245,
+      "commit": "4953cdf6c956adf69a0050c4df503048aed6b271",
+      "azureDevOpsBuildId": 254848,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190708.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-08T07:34:34Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17250": {
+      "id": 17250,
+      "commit": "d39ddd0e9998600cf34f654177db53a97ef2fec7",
+      "azureDevOpsBuildId": 254903,
+      "azureDevOpsBuildDefinitionId": 237,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190708.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-optimization",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": null,
+      "gitHubBranch": null,
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-08T11:14:34Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17261": {
+      "id": 17261,
+      "commit": "085398b5c6913b03180c855f56b967e2a7d6edde",
+      "azureDevOpsBuildId": 254920,
+      "azureDevOpsBuildDefinitionId": 244,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190708.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-coreclr",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/coreclr",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-08T12:44:06Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17274": {
+      "id": 17274,
+      "commit": "46d64281c0848ee208045ba2d59d7059ce680266",
+      "azureDevOpsBuildId": 255103,
+      "azureDevOpsBuildDefinitionId": 246,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190708.2",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-standard",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/standard",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-08T13:22:13Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17343": {
+      "id": 17343,
+      "commit": "b5bc9638f43e365197136f3724a81e5131b1ce6c",
+      "azureDevOpsBuildId": 255689,
+      "azureDevOpsBuildDefinitionId": 280,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190708.7",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-wpf-int",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": null,
+      "gitHubBranch": null,
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-09T00:39:16Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17382": {
+      "id": 17382,
+      "commit": "bfa7b12fb8a3424e4bc5c6e553d9999bb605d397",
+      "azureDevOpsBuildId": 256110,
+      "azureDevOpsBuildDefinitionId": 283,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190708.6",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-corefx",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/corefx",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-09T04:54:05Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17392": {
+      "id": 17392,
+      "commit": "ef3834feb8615429a58808cdcf9ad9284d767654",
+      "azureDevOpsBuildId": 256253,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190709.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-09T07:41:59Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17432": {
+      "id": 17432,
+      "commit": "705a6d8ce1a073d58fffa8ab9f25a7b8112d6b6b",
+      "azureDevOpsBuildId": 256602,
+      "azureDevOpsBuildDefinitionId": 288,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190709.01",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/core-setup",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-09T15:11:38Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17456": {
+      "id": 17456,
+      "commit": "bd1ec4e2cdab8e536cdb48670843904310a1854a",
+      "azureDevOpsBuildId": 257056,
+      "azureDevOpsBuildDefinitionId": 164,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190709.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-winforms",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/winforms",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-09T20:07:30Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 15399,
+          "isProduct": false
+        },
+        {
+          "buildId": 17261,
+          "isProduct": false
+        },
+        {
+          "buildId": 17382,
+          "isProduct": false
+        },
+        {
+          "buildId": 17432,
+          "isProduct": false
+        }
+      ]
+    },
+    "17459": {
+      "id": 17459,
+      "commit": "17aaaf42dfcf86952acf0c7f788887623e7f4095",
+      "azureDevOpsBuildId": 2835047,
+      "azureDevOpsBuildDefinitionId": 8972,
+      "azureDevOpsAccount": "devdiv",
+      "azureDevOpsProject": "DevDiv",
+      "azureDevOpsBuildNumber": "20190709.5",
+      "azureDevOpsRepository": "https://github.com/dotnet/roslyn",
+      "azureDevOpsBranch": "refs/heads/master-vs-deps",
+      "gitHubRepository": "https://github.com/dotnet/roslyn",
+      "gitHubBranch": "refs/heads/master-vs-deps",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-09T20:38:03Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17461": {
+      "id": 17461,
+      "commit": "66d06b9c1c99deb4a4ac74274ac0f2924d557046",
+      "azureDevOpsBuildId": 257127,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190709.4",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-09T21:01:13Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17463": {
+      "id": 17463,
+      "commit": "ea72094ebe0de0da03c591752559739d6fb67f03",
+      "azureDevOpsBuildId": 257201,
+      "azureDevOpsBuildDefinitionId": 217,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190709.5",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-wpf",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/wpf",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-09T21:32:33Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17261,
+          "isProduct": false
+        },
+        {
+          "buildId": 17343,
+          "isProduct": false
+        },
+        {
+          "buildId": 17382,
+          "isProduct": false
+        },
+        {
+          "buildId": 17392,
+          "isProduct": false
+        },
+        {
+          "buildId": 17432,
+          "isProduct": false
+        },
+        {
+          "buildId": 17456,
+          "isProduct": true
+        }
+      ]
+    },
+    "17471": {
+      "id": 17471,
+      "commit": "ae34b415d3e316af02bd0a3898a04dd19a7a4c9d",
+      "azureDevOpsBuildId": 257305,
+      "azureDevOpsBuildDefinitionId": 280,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190709.6",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-wpf-int",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": null,
+      "gitHubBranch": null,
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-09T22:26:37Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17382,
+          "isProduct": false
+        },
+        {
+          "buildId": 17392,
+          "isProduct": false
+        },
+        {
+          "buildId": 17432,
+          "isProduct": false
+        },
+        {
+          "buildId": 17456,
+          "isProduct": true
+        },
+        {
+          "buildId": 17463,
+          "isProduct": true
+        }
+      ]
+    },
+    "17490": {
+      "id": 17490,
+      "commit": "48ff0937552e540f21835391b693daf47ffabece",
+      "azureDevOpsBuildId": 257541,
+      "azureDevOpsBuildDefinitionId": 244,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190709.2",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-coreclr",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/coreclr",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-10T00:50:12Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17121,
+          "isProduct": false
+        },
+        {
+          "buildId": 17242,
+          "isProduct": false
+        },
+        {
+          "buildId": 17245,
+          "isProduct": false
+        },
+        {
+          "buildId": 17250,
+          "isProduct": false
+        }
+      ]
+    },
+    "17668": {
+      "id": 17668,
+      "commit": "a6ae1b637ed236354529992729af875f6c8a180a",
+      "azureDevOpsBuildId": 259432,
+      "azureDevOpsBuildDefinitionId": 6,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190710.8",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-arcade",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/arcade",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-10T23:51:41Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17678": {
+      "id": 17678,
+      "commit": "ef2f9f41555c453451a5003f1be4bb9888ab078d",
+      "azureDevOpsBuildId": 259509,
+      "azureDevOpsBuildDefinitionId": 244,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190710.2",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-coreclr",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/coreclr",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-11T00:44:03Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17121,
+          "isProduct": false
+        },
+        {
+          "buildId": 17242,
+          "isProduct": false
+        },
+        {
+          "buildId": 17245,
+          "isProduct": false
+        },
+        {
+          "buildId": 17250,
+          "isProduct": false
+        }
+      ]
+    },
+    "17721": {
+      "id": 17721,
+      "commit": "e75dd151c9e5aa94cf33c7c9d14a53180df747dd",
+      "azureDevOpsBuildId": 259857,
+      "azureDevOpsBuildDefinitionId": 283,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190710.10",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-corefx",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/corefx",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-11T05:40:43Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+      ]
+    },
+    "17752": {
+      "id": 17752,
+      "commit": "a393ffee970c6d962c5830bb1c6fa4c3a3e268a6",
+      "azureDevOpsBuildId": 260111,
+      "azureDevOpsBuildDefinitionId": 283,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190711.1",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-corefx",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/corefx",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-11T12:38:27Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17236,
+          "isProduct": false
+        },
+        {
+          "buildId": 17242,
+          "isProduct": false
+        },
+        {
+          "buildId": 17250,
+          "isProduct": false
+        },
+        {
+          "buildId": 17274,
+          "isProduct": false
+        },
+        {
+          "buildId": 17461,
+          "isProduct": false
+        },
+        {
+          "buildId": 17490,
+          "isProduct": true
+        }
+      ]
+    },
+    "17761": {
+      "id": 17761,
+      "commit": "b92ad4e064e79f7510f9caafe4a0e5db6f488466",
+      "azureDevOpsBuildId": 260293,
+      "azureDevOpsBuildDefinitionId": 246,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190711.2",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-standard",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/standard",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-11T13:11:53Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17668,
+          "isProduct": false
+        },
+        {
+          "buildId": 17721,
+          "isProduct": false
+        }
+      ]
+    },
+    "17778": {
+      "id": 17778,
+      "commit": "3ca720b8a2dc8f711a4762729d5c6a223ecc523a",
+      "azureDevOpsBuildId": 260384,
+      "azureDevOpsBuildDefinitionId": 288,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190711.04",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/dotnet-core-setup",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/dotnet/core-setup",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-11T16:45:25Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17456,
+          "isProduct": true
+        },
+        {
+          "buildId": 17463,
+          "isProduct": true
+        },
+        {
+          "buildId": 17471,
+          "isProduct": true
+        },
+        {
+          "buildId": 17668,
+          "isProduct": false
+        },
+        {
+          "buildId": 17678,
+          "isProduct": true
+        },
+        {
+          "buildId": 17752,
+          "isProduct": true
+        },
+        {
+          "buildId": 17761,
+          "isProduct": true
+        }
+      ]
+    },
+    "17804": {
+      "id": 17804,
+      "commit": "340377c1b06f9eb34d018f84bea69119fb622093",
+      "azureDevOpsBuildId": 260646,
+      "azureDevOpsBuildDefinitionId": 179,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190711.5",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/aspnet-Extensions",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/aspnet/Extensions",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-11T18:01:37Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17245,
+          "isProduct": false
+        },
+        {
+          "buildId": 17459,
+          "isProduct": false
+        },
+        {
+          "buildId": 17752,
+          "isProduct": true
+        },
+        {
+          "buildId": 17778,
+          "isProduct": true
+        }
+      ]
+    },
+    "17818": {
+      "id": 17818,
+      "commit": "a23fdc5348f411e8fcc29761fb03cf74b1c4f970",
+      "azureDevOpsBuildId": 260809,
+      "azureDevOpsBuildDefinitionId": 262,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190711.5",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/aspnet-AspNetCore-Tooling",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/aspnet/AspNetCore-Tooling",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-11T19:15:57Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17245,
+          "isProduct": false
+        },
+        {
+          "buildId": 17459,
+          "isProduct": false
+        },
+        {
+          "buildId": 17752,
+          "isProduct": true
+        },
+        {
+          "buildId": 17778,
+          "isProduct": true
+        },
+        {
+          "buildId": 17804,
+          "isProduct": true
+        }
+      ]
+    },
+    "17827": {
+      "id": 17827,
+      "commit": "c916044ea14b17159b7c2cb5f5848bf43f15efc7",
+      "azureDevOpsBuildId": 260879,
+      "azureDevOpsBuildDefinitionId": 229,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190711.7",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/aspnet-EntityFrameworkCore",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/aspnet/EntityFrameworkCore",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": true,
+      "dateProduced": "2019-07-11T19:50:01Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 17245,
+          "isProduct": false
+        },
+        {
+          "buildId": 17459,
+          "isProduct": false
+        },
+        {
+          "buildId": 17752,
+          "isProduct": true
+        },
+        {
+          "buildId": 17778,
+          "isProduct": true
+        },
+        {
+          "buildId": 17804,
+          "isProduct": true
+        }
+      ]
+    },
+    "18009": {
+      "id": 18009,
+      "commit": "840c226e28ada143d9801be9917975ceb4ca625a",
+      "azureDevOpsBuildId": 262611,
+      "azureDevOpsBuildDefinitionId": 31,
+      "azureDevOpsAccount": "dnceng",
+      "azureDevOpsProject": "internal",
+      "azureDevOpsBuildNumber": "20190712.2",
+      "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/aspnet-AspNetCore",
+      "azureDevOpsBranch": "refs/heads/master",
+      "gitHubRepository": "https://github.com/aspnet/AspNetCore",
+      "gitHubBranch": "refs/heads/master",
+      "publishUsingPipelines": false,
+      "dateProduced": "2019-07-12T20:48:53Z",
+      "channels": null,
+      "assets": null,
+      "dependencies": [
+        {
+          "buildId": 11464,
+          "isProduct": true
+        },
+        {
+          "buildId": 17033,
+          "isProduct": true
+        },
+        {
+          "buildId": 17063,
+          "isProduct": false
+        },
+        {
+          "buildId": 17459,
+          "isProduct": false
+        },
+        {
+          "buildId": 17752,
+          "isProduct": true
+        },
+        {
+          "buildId": 17778,
+          "isProduct": true
+        },
+        {
+          "buildId": 17804,
+          "isProduct": true
+        },
+        {
+          "buildId": 17818,
+          "isProduct": true
+        },
+        {
+          "buildId": 17827,
+          "isProduct": true
+        }
+      ]
+    }
+  }
+}

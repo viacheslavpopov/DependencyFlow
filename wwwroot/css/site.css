@@ -1,6 +1,16 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+a.link-light {
+    color: #9FF
+}
+
+body.dark-mode {
+    /* This is the AzDO dark theme background/foreground, so we blend in */
+    background-color: rgb(32, 31, 30);
+    color: rgba(255, 255, 255, 0.95);
+}
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;

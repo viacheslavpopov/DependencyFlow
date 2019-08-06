@@ -1,1 +1,2946 @@
-{"id":18009,"commit":"840c226e28ada143d9801be9917975ceb4ca625a","azureDevOpsBuildId":262611,"azureDevOpsBuildDefinitionId":31,"azureDevOpsAccount":"dnceng","azureDevOpsProject":"internal","azureDevOpsBuildNumber":"20190712.2","azureDevOpsRepository":"https://dev.azure.com/dnceng/internal/_git/aspnet-AspNetCore","azureDevOpsBranch":"refs/heads/master","gitHubRepository":"https://github.com/aspnet/AspNetCore","gitHubBranch":"refs/heads/master","publishUsingPipelines":false,"dateProduced":"2019-07-12T20:48:53Z","channels":[{"id":3,"name":".NET Core 3 Dev","classification":"product","releasePipelines":null}],"assets":[{"id":1677722,"name":"assets/symbols/Microsoft.Extensions.ApiDescription.Client.0.3.0-preview8.19362.2.symbols.nupkg","version":"0.3.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677723,"name":"Microsoft.AspNetCore.JsonPatch","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677724,"name":"Microsoft.AspNetCore.Identity.UI","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677725,"name":"Microsoft.AspNetCore.Identity.Specification.Tests","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677726,"name":"Microsoft.AspNetCore.Identity.EntityFrameworkCore","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677727,"name":"Microsoft.AspNetCore.Http.Features","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677728,"name":"Microsoft.AspNetCore.Http.Connections.Common","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677729,"name":"Microsoft.AspNetCore.Http.Connections.Client","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677730,"name":"Microsoft.AspNetCore.Hosting.WindowsServices","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677731,"name":"Microsoft.AspNetCore.Metadata","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677732,"name":"Microsoft.AspNetCore.HeaderPropagation","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677733,"name":"Microsoft.AspNetCore.DeveloperCertificates.XPlat","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677734,"name":"Microsoft.AspNetCore.DataProtection.StackExchangeRedis","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677735,"name":"Microsoft.AspNetCore.DataProtection.Extensions","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677736,"name":"Microsoft.AspNetCore.DataProtection.EntityFrameworkCore","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677737,"name":"Microsoft.AspNetCore.DataProtection.AzureStorage","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677738,"name":"Microsoft.AspNetCore.DataProtection.AzureKeyVault","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677739,"name":"Microsoft.AspNetCore.DataProtection.Abstractions","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677740,"name":"Microsoft.AspNetCore.DataProtection","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677741,"name":"Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677742,"name":"Microsoft.AspNetCore.MiddlewareAnalysis","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677743,"name":"Microsoft.AspNetCore.Mvc.Analyzers","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677744,"name":"Microsoft.AspNetCore.Mvc.Api.Analyzers","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677745,"name":"Microsoft.AspNetCore.SpaServices.Extensions","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677746,"name":"Microsoft.AspNetCore.SpaServices","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677747,"name":"Microsoft.AspNetCore.SignalR.StackExchangeRedis","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677748,"name":"Microsoft.AspNetCore.SignalR.Specification.Tests","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677749,"name":"Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677750,"name":"Microsoft.AspNetCore.SignalR.Protocols.MessagePack","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677751,"name":"Microsoft.AspNetCore.SignalR.Protocols.Json","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677752,"name":"Microsoft.AspNetCore.SignalR.Common","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677753,"name":"Microsoft.AspNetCore.SignalR.Client.Core","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677754,"name":"Microsoft.AspNetCore.SignalR.Client","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677755,"name":"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677756,"name":"Microsoft.AspNetCore.Server.IntegrationTesting.IIS","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677757,"name":"Microsoft.AspNetCore.Server.IntegrationTesting","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677758,"name":"Microsoft.AspNetCore.RequestThrottling","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677759,"name":"Microsoft.AspNetCore.Owin","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677760,"name":"Microsoft.AspNetCore.NodeServices","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677761,"name":"Microsoft.AspNetCore.Mvc.Testing","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677762,"name":"Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677763,"name":"Microsoft.AspNetCore.Mvc.NewtonsoftJson","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677764,"name":"Microsoft.AspNetCore.Cryptography.KeyDerivation","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677765,"name":"Microsoft.AspNetCore.Cryptography.Internal","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677766,"name":"Microsoft.AspNetCore.Connections.Abstractions","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677767,"name":"Microsoft.AspNetCore.Components.Web","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677768,"name":"Microsoft.AspNetCore.Authentication.AzureAD.UI","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677769,"name":"Microsoft.AspNetCore.App.Runtime.win-x86","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677770,"name":"Microsoft.AspNetCore.App.Runtime.win-x64","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677771,"name":"Microsoft.AspNetCore.App.Ref","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677772,"name":"Microsoft.AspNetCore.ApiAuthorization.IdentityServer","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677773,"name":"Microsoft.AspNetCore.ANCMSymbols.win-x86","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677774,"name":"Microsoft.AspNetCore.ANCMSymbols.win-x64","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677775,"name":"Microsoft.AspNetCore.Analyzers.FeatureDetection.Sources","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677776,"name":"Microsoft.AspNetCore.Analyzers","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677777,"name":"dotnet-watch","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677778,"name":"dotnet-user-secrets","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677779,"name":"dotnet-sql-cache","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677780,"name":"dotnet-dev-certs","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677781,"name":"AspNetCoreRuntime.3.0.x86","version":"3.0.0-preview8-19362-2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677782,"name":"AspNetCoreRuntime.3.0.x64","version":"3.0.0-preview8-19362-2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677783,"name":"assets/symbols/Microsoft.Extensions.Identity.Stores.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677784,"name":"assets/symbols/Microsoft.Extensions.Identity.Core.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677785,"name":"assets/symbols/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677786,"name":"assets/symbols/Microsoft.Extensions.ApiDescription.Server.0.3.0-preview8.19362.2.symbols.nupkg","version":"0.3.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677787,"name":"Microsoft.AspNetCore.Authentication.AzureADB2C.UI","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677788,"name":"Microsoft.AspNetCore.TestHost","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677789,"name":"Microsoft.AspNetCore.Authentication.Certificate","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677790,"name":"Microsoft.AspNetCore.Authentication.Google","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677791,"name":"Microsoft.AspNetCore.Components.Analyzers","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677792,"name":"Microsoft.AspNetCore.Components","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677793,"name":"Microsoft.AspNetCore.Blazor.Templates","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677794,"name":"Microsoft.AspNetCore.Blazor.Server","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677795,"name":"Microsoft.AspNetCore.Blazor.HttpClient","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677796,"name":"Microsoft.AspNetCore.Blazor.DevServer","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677797,"name":"Microsoft.AspNetCore.Blazor.Build","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677798,"name":"Microsoft.AspNetCore.Blazor","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677799,"name":"Microsoft.AspNetCore.AzureAppServicesIntegration","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677800,"name":"Microsoft.AspNetCore.AzureAppServices.SiteExtension.3.0.x86","version":"3.0.0-preview8-19362-2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677801,"name":"Microsoft.AspNetCore.AzureAppServices.SiteExtension.3.0.x64","version":"3.0.0-preview8-19362-2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677802,"name":"Microsoft.AspNetCore.AzureAppServices.HostingStartup","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677803,"name":"Microsoft.AspNetCore.Authorization","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677804,"name":"Microsoft.AspNetCore.Authentication.WsFederation","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677805,"name":"Microsoft.AspNetCore.Authentication.Twitter","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677806,"name":"Microsoft.AspNetCore.Authentication.OpenIdConnect","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677807,"name":"Microsoft.AspNetCore.Authentication.Negotiate","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677808,"name":"Microsoft.AspNetCore.Authentication.MicrosoftAccount","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677809,"name":"Microsoft.AspNetCore.Authentication.JwtBearer","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677810,"name":"Microsoft.AspNetCore.Authentication.Facebook","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677811,"name":"Microsoft.DotNet.Web.Client.ItemTemplates","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677812,"name":"Microsoft.DotNet.Web.ItemTemplates","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677813,"name":"Microsoft.DotNet.Web.ProjectTemplates.3.0","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677814,"name":"assets/symbols/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677815,"name":"assets/symbols/Microsoft.AspNetCore.Mvc.NewtonsoftJson.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677816,"name":"assets/symbols/Microsoft.AspNetCore.Mvc.Api.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677817,"name":"assets/symbols/Microsoft.AspNetCore.Mvc.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677818,"name":"assets/symbols/Microsoft.AspNetCore.MiddlewareAnalysis.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677819,"name":"assets/symbols/Microsoft.AspNetCore.Metadata.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677820,"name":"assets/symbols/Microsoft.AspNetCore.JsonPatch.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677821,"name":"assets/symbols/Microsoft.AspNetCore.Identity.UI.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677822,"name":"assets/symbols/Microsoft.AspNetCore.Identity.Specification.Tests.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677823,"name":"assets/symbols/Microsoft.AspNetCore.Identity.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677824,"name":"assets/symbols/Microsoft.AspNetCore.Http.Features.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677825,"name":"assets/symbols/Microsoft.AspNetCore.Http.Connections.Common.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677826,"name":"assets/symbols/Microsoft.AspNetCore.Http.Connections.Client.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677827,"name":"assets/symbols/Microsoft.AspNetCore.Hosting.WindowsServices.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677828,"name":"assets/symbols/Microsoft.AspNetCore.HeaderPropagation.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677829,"name":"assets/symbols/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677830,"name":"assets/symbols/Microsoft.AspNetCore.DeveloperCertificates.XPlat.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677831,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.StackExchangeRedis.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677832,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.Extensions.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677833,"name":"assets/symbols/Microsoft.AspNetCore.Mvc.Testing.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677834,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677835,"name":"assets/symbols/Microsoft.AspNetCore.NodeServices.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677836,"name":"assets/symbols/Microsoft.AspNetCore.RequestThrottling.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677837,"name":"assets/symbols/Microsoft.Extensions.Identity.Stores.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677838,"name":"assets/symbols/Microsoft.Extensions.Identity.Core.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677839,"name":"assets/symbols/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677840,"name":"assets/symbols/Microsoft.Extensions.ApiDescription.Server.0.3.0-preview8.19362.2.symbols.nupkg","version":"0.3.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677841,"name":"assets/symbols/Microsoft.Extensions.ApiDescription.Client.0.3.0-preview8.19362.2.symbols.nupkg","version":"0.3.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677842,"name":"assets/symbols/Microsoft.AspNetCore.TestHost.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677843,"name":"assets/symbols/Microsoft.AspNetCore.SpaServices.Extensions.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677844,"name":"assets/symbols/Microsoft.AspNetCore.SpaServices.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677845,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.StackExchangeRedis.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677846,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Specification.Tests.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677847,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677848,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.MessagePack.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677849,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.Json.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677850,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Common.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677851,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Client.Core.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677852,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Client.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677853,"name":"assets/symbols/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677854,"name":"assets/symbols/Microsoft.AspNetCore.Server.IntegrationTesting.IIS.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677855,"name":"assets/symbols/Microsoft.AspNetCore.Server.IntegrationTesting.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677856,"name":"assets/symbols/Microsoft.AspNetCore.Owin.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677857,"name":"assets/symbols/Microsoft.AspNetCore.TestHost.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677858,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.AzureStorage.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677859,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.Abstractions.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677860,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.Certificate.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677861,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.AzureADB2C.UI.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677862,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.AzureAD.UI.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677863,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.win-x86.3.0.0-preview8.19362.2.symbols.nupkg","version":"86.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677864,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.win-x64.3.0.0-preview8.19362.2.symbols.nupkg","version":"64.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677865,"name":"assets/symbols/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677866,"name":"assets/symbols/Microsoft.AspNetCore.ANCMSymbols.win-x86.3.0.0-preview8.19362.2.symbols.nupkg","version":"86.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677867,"name":"assets/symbols/Microsoft.AspNetCore.ANCMSymbols.win-x64.3.0.0-preview8.19362.2.symbols.nupkg","version":"64.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677868,"name":"assets/symbols/Microsoft.AspNetCore.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677869,"name":"assets/symbols/dotnet-watch.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677870,"name":"assets/symbols/dotnet-user-secrets.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677871,"name":"assets/symbols/dotnet-sql-cache.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677872,"name":"assets/symbols/dotnet-dev-certs.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677873,"name":"Microsoft.Extensions.Identity.Stores","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677874,"name":"Microsoft.Extensions.Identity.Core","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677875,"name":"Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677876,"name":"Microsoft.Extensions.ApiDescription.Server","version":"0.3.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677877,"name":"Microsoft.Extensions.ApiDescription.Client","version":"0.3.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677878,"name":"Microsoft.DotNet.Web.Spa.ProjectTemplates.3.0","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677879,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.Facebook.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677880,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.AzureKeyVault.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677881,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.Google.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677882,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.MicrosoftAccount.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677883,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677884,"name":"assets/symbols/Microsoft.AspNetCore.Cryptography.KeyDerivation.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677885,"name":"assets/symbols/Microsoft.AspNetCore.Cryptography.Internal.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677886,"name":"assets/symbols/Microsoft.AspNetCore.Connections.Abstractions.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677887,"name":"assets/symbols/Microsoft.AspNetCore.Components.Web.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677888,"name":"assets/symbols/Microsoft.AspNetCore.Components.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677889,"name":"assets/symbols/Microsoft.AspNetCore.Components.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677890,"name":"assets/symbols/Microsoft.AspNetCore.Blazor.Server.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677891,"name":"assets/symbols/Microsoft.AspNetCore.Blazor.HttpClient.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677892,"name":"assets/symbols/Microsoft.AspNetCore.Blazor.DevServer.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677893,"name":"assets/symbols/Microsoft.AspNetCore.Blazor.Build.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677894,"name":"assets/symbols/Microsoft.AspNetCore.Blazor.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677895,"name":"assets/symbols/Microsoft.AspNetCore.AzureAppServicesIntegration.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677896,"name":"assets/symbols/Microsoft.AspNetCore.AzureAppServices.HostingStartup.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677897,"name":"assets/symbols/Microsoft.AspNetCore.Authorization.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677898,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.WsFederation.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677899,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.Twitter.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677900,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.OpenIdConnect.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677901,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.Negotiate.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677902,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.JwtBearer.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677903,"name":"assets/symbols/Microsoft.AspNetCore.SpaServices.Extensions.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677904,"name":"assets/symbols/Microsoft.AspNetCore.SpaServices.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677905,"name":"Microsoft.AspNetCore.SignalR.Common","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677906,"name":"Microsoft.AspNetCore.HeaderPropagation","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677907,"name":"Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677908,"name":"Microsoft.AspNetCore.DeveloperCertificates.XPlat","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677909,"name":"Microsoft.AspNetCore.DataProtection.StackExchangeRedis","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677910,"name":"Microsoft.AspNetCore.DataProtection.Extensions","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677911,"name":"Microsoft.AspNetCore.DataProtection.EntityFrameworkCore","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677912,"name":"Microsoft.AspNetCore.DataProtection.AzureStorage","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677913,"name":"Microsoft.AspNetCore.DataProtection.AzureKeyVault","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677914,"name":"Microsoft.AspNetCore.Hosting.WindowsServices","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677915,"name":"Microsoft.AspNetCore.DataProtection.Abstractions","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677916,"name":"Microsoft.AspNetCore.Cryptography.KeyDerivation","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677917,"name":"Microsoft.AspNetCore.Cryptography.Internal","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677918,"name":"Microsoft.AspNetCore.Connections.Abstractions","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677919,"name":"Microsoft.AspNetCore.Components.Web","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677920,"name":"Microsoft.AspNetCore.Components.Analyzers","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677921,"name":"Microsoft.AspNetCore.Components","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677922,"name":"Microsoft.AspNetCore.Blazor.Templates","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677923,"name":"Microsoft.AspNetCore.Blazor.Server","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677924,"name":"Microsoft.AspNetCore.DataProtection","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677925,"name":"Microsoft.AspNetCore.Http.Connections.Client","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677926,"name":"Microsoft.AspNetCore.Http.Connections.Common","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677927,"name":"Microsoft.AspNetCore.Http.Features","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677928,"name":"Microsoft.AspNetCore.SignalR.Client.Core","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677929,"name":"Microsoft.AspNetCore.SignalR.Client","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677930,"name":"Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677931,"name":"Microsoft.AspNetCore.Server.IntegrationTesting.IIS","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677932,"name":"Microsoft.AspNetCore.Server.IntegrationTesting","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677933,"name":"Microsoft.AspNetCore.RequestThrottling","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677934,"name":"Microsoft.AspNetCore.Owin","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677935,"name":"Microsoft.AspNetCore.NodeServices","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677936,"name":"Microsoft.AspNetCore.Mvc.Testing","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677937,"name":"Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677938,"name":"Microsoft.AspNetCore.Mvc.NewtonsoftJson","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677939,"name":"Microsoft.AspNetCore.Mvc.Api.Analyzers","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677940,"name":"Microsoft.AspNetCore.Mvc.Analyzers","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677941,"name":"Microsoft.AspNetCore.MiddlewareAnalysis","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677942,"name":"Microsoft.AspNetCore.Metadata","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677943,"name":"Microsoft.AspNetCore.JsonPatch","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677944,"name":"Microsoft.AspNetCore.Identity.UI","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677945,"name":"Microsoft.AspNetCore.Identity.Specification.Tests","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677946,"name":"Microsoft.AspNetCore.Identity.EntityFrameworkCore","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677947,"name":"Microsoft.AspNetCore.Blazor.HttpClient","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677948,"name":"Microsoft.AspNetCore.Blazor.DevServer","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677949,"name":"Microsoft.AspNetCore.Blazor.Build","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677950,"name":"Microsoft.AspNetCore.Blazor","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677951,"name":"Microsoft.AspNetCore.Analyzers.FeatureDetection.Sources","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677952,"name":"Microsoft.AspNetCore.Analyzers","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677953,"name":"dotnet-watch","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677954,"name":"dotnet-user-secrets","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677955,"name":"dotnet-sql-cache","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677956,"name":"dotnet-dev-certs","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677957,"name":"AspNetCoreRuntime.3.0.x86","version":"3.0.0-preview8-19362-2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677958,"name":"AspNetCoreRuntime.3.0.x64","version":"3.0.0-preview8-19362-2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677959,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.win-arm.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677960,"name":"Microsoft.AspNetCore.App.Runtime.win-arm","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677961,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.osx-x64.3.0.0-preview8.19362.2.symbols.nupkg","version":"64.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677962,"name":"Microsoft.AspNetCore.App.Runtime.osx-x64","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677963,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.linux-x64.3.0.0-preview8.19362.2.symbols.nupkg","version":"64.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677964,"name":"Microsoft.AspNetCore.App.Runtime.linux-x64","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677965,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.linux-musl-x64.3.0.0-preview8.19362.2.symbols.nupkg","version":"64.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677966,"name":"Microsoft.AspNetCore.App.Runtime.linux-musl-x64","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677967,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.linux-musl-arm64.3.0.0-preview8.19362.2.symbols.nupkg","version":"64.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677968,"name":"Microsoft.AspNetCore.App.Runtime.linux-musl-arm64","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677969,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.linux-arm64.3.0.0-preview8.19362.2.symbols.nupkg","version":"64.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677970,"name":"Microsoft.AspNetCore.ANCMSymbols.win-x64","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677971,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.StackExchangeRedis.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677972,"name":"Microsoft.AspNetCore.ANCMSymbols.win-x86","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677973,"name":"Microsoft.AspNetCore.App.Ref","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677974,"name":"Microsoft.AspNetCore.AzureAppServicesIntegration","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677975,"name":"Microsoft.AspNetCore.AzureAppServices.SiteExtension.3.0.x86","version":"3.0.0-preview8-19362-2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677976,"name":"Microsoft.AspNetCore.AzureAppServices.SiteExtension.3.0.x64","version":"3.0.0-preview8-19362-2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677977,"name":"Microsoft.AspNetCore.AzureAppServices.SiteExtension","version":"3.0.0-preview8-19362-2","buildId":18009,"nonShipping":true,"locations":null},{"id":1677978,"name":"Microsoft.AspNetCore.AzureAppServices.HostingStartup","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677979,"name":"Microsoft.AspNetCore.Authorization","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677980,"name":"Microsoft.AspNetCore.Authentication.WsFederation","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677981,"name":"Microsoft.AspNetCore.Authentication.Twitter","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677982,"name":"Microsoft.AspNetCore.Authentication.OpenIdConnect","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677983,"name":"Microsoft.AspNetCore.Authentication.Negotiate","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677984,"name":"Microsoft.AspNetCore.Authentication.MicrosoftAccount","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677985,"name":"Microsoft.AspNetCore.Authentication.JwtBearer","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677986,"name":"Microsoft.AspNetCore.Authentication.Google","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677987,"name":"Microsoft.AspNetCore.Authentication.Facebook","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677988,"name":"Microsoft.AspNetCore.Authentication.Certificate","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677989,"name":"Microsoft.AspNetCore.Authentication.AzureADB2C.UI","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677990,"name":"Microsoft.AspNetCore.Authentication.AzureAD.UI","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677991,"name":"Microsoft.AspNetCore.App.Runtime.win-x86","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677992,"name":"Microsoft.AspNetCore.App.Runtime.win-x64","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677993,"name":"Microsoft.AspNetCore.ApiAuthorization.IdentityServer","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677994,"name":"Microsoft.AspNetCore.SignalR.Protocols.Json","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677995,"name":"Microsoft.AspNetCore.SignalR.Protocols.MessagePack","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677996,"name":"Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677997,"name":"assets/symbols/Microsoft.AspNetCore.Identity.Specification.Tests.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677998,"name":"assets/symbols/Microsoft.AspNetCore.Identity.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1677999,"name":"assets/symbols/Microsoft.AspNetCore.Http.Features.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678000,"name":"assets/symbols/Microsoft.AspNetCore.Http.Connections.Common.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678001,"name":"assets/symbols/Microsoft.AspNetCore.Http.Connections.Client.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678002,"name":"assets/symbols/Microsoft.AspNetCore.Hosting.WindowsServices.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678003,"name":"assets/symbols/Microsoft.AspNetCore.HeaderPropagation.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678004,"name":"assets/symbols/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678005,"name":"assets/symbols/Microsoft.AspNetCore.DeveloperCertificates.XPlat.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678006,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.StackExchangeRedis.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678007,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.Extensions.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678008,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678009,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.AzureStorage.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678010,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.AzureKeyVault.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678011,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.Abstractions.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678012,"name":"assets/symbols/Microsoft.AspNetCore.DataProtection.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678013,"name":"assets/symbols/Microsoft.AspNetCore.Cryptography.KeyDerivation.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678014,"name":"assets/symbols/Microsoft.AspNetCore.Cryptography.Internal.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678015,"name":"assets/symbols/Microsoft.AspNetCore.Connections.Abstractions.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678016,"name":"assets/symbols/Microsoft.AspNetCore.Identity.UI.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678017,"name":"assets/symbols/Microsoft.AspNetCore.Components.Web.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678018,"name":"assets/symbols/Microsoft.AspNetCore.JsonPatch.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678019,"name":"assets/symbols/Microsoft.AspNetCore.MiddlewareAnalysis.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678020,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Specification.Tests.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678021,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678022,"name":"Microsoft.AspNetCore.App.Runtime.linux-arm","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678023,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.MessagePack.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678024,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.Json.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678025,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Common.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678026,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Client.Core.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678027,"name":"assets/symbols/Microsoft.AspNetCore.SignalR.Client.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678028,"name":"assets/symbols/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678029,"name":"assets/symbols/Microsoft.AspNetCore.Server.IntegrationTesting.IIS.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678030,"name":"assets/symbols/Microsoft.AspNetCore.Server.IntegrationTesting.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678031,"name":"assets/symbols/Microsoft.AspNetCore.RequestThrottling.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678032,"name":"assets/symbols/Microsoft.AspNetCore.Owin.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678033,"name":"assets/symbols/Microsoft.AspNetCore.NodeServices.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678034,"name":"assets/symbols/Microsoft.AspNetCore.Mvc.Testing.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678035,"name":"assets/symbols/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678036,"name":"assets/symbols/Microsoft.AspNetCore.Mvc.NewtonsoftJson.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678037,"name":"assets/symbols/Microsoft.AspNetCore.Mvc.Api.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678038,"name":"assets/symbols/Microsoft.AspNetCore.Mvc.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678039,"name":"assets/symbols/Microsoft.AspNetCore.Metadata.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678040,"name":"Microsoft.AspNetCore.App.Runtime.linux-arm64","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678041,"name":"assets/symbols/Microsoft.AspNetCore.Components.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678042,"name":"assets/symbols/Microsoft.AspNetCore.Blazor.Server.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678043,"name":"assets/symbols/Microsoft.AspNetCore.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678044,"name":"assets/symbols/dotnet-watch.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678045,"name":"assets/symbols/dotnet-user-secrets.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678046,"name":"assets/symbols/dotnet-sql-cache.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678047,"name":"assets/symbols/dotnet-dev-certs.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678048,"name":"Microsoft.Extensions.Identity.Stores","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678049,"name":"Microsoft.Extensions.Identity.Core","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678050,"name":"Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678051,"name":"Microsoft.Extensions.ApiDescription.Server","version":"0.3.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678052,"name":"Microsoft.Extensions.ApiDescription.Client","version":"0.3.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678053,"name":"Microsoft.DotNet.Web.Spa.ProjectTemplates.3.0","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678054,"name":"Microsoft.DotNet.Web.ProjectTemplates.3.0","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678055,"name":"Microsoft.DotNet.Web.ItemTemplates","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678056,"name":"Microsoft.DotNet.Web.Client.ItemTemplates","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678057,"name":"Microsoft.AspNetCore.TestHost","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678058,"name":"Microsoft.AspNetCore.SpaServices.Extensions","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678059,"name":"Microsoft.AspNetCore.SpaServices","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678060,"name":"Microsoft.AspNetCore.SignalR.StackExchangeRedis","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678061,"name":"Microsoft.AspNetCore.SignalR.Specification.Tests","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678062,"name":"assets/symbols/Microsoft.AspNetCore.ANCMSymbols.win-x64.3.0.0-preview8.19362.2.symbols.nupkg","version":"64.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678063,"name":"assets/symbols/Microsoft.AspNetCore.Components.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678064,"name":"assets/symbols/Microsoft.AspNetCore.ANCMSymbols.win-x86.3.0.0-preview8.19362.2.symbols.nupkg","version":"86.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":true,"locations":null},{"id":1678065,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.win-x64.3.0.0-preview8.19362.2.symbols.nupkg","version":"64.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678066,"name":"assets/symbols/Microsoft.AspNetCore.Blazor.HttpClient.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678067,"name":"assets/symbols/Microsoft.AspNetCore.Blazor.DevServer.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678068,"name":"assets/symbols/Microsoft.AspNetCore.Blazor.Build.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678069,"name":"assets/symbols/Microsoft.AspNetCore.Blazor.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678070,"name":"assets/symbols/Microsoft.AspNetCore.AzureAppServicesIntegration.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678071,"name":"assets/symbols/Microsoft.AspNetCore.AzureAppServices.HostingStartup.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678072,"name":"assets/symbols/Microsoft.AspNetCore.Authorization.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678073,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.WsFederation.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678074,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.Twitter.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678075,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.OpenIdConnect.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678076,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.Negotiate.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678077,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.MicrosoftAccount.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678078,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.JwtBearer.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678079,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.Google.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678080,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.Facebook.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678081,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.Certificate.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678082,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.AzureADB2C.UI.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678083,"name":"assets/symbols/Microsoft.AspNetCore.Authentication.AzureAD.UI.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678084,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.win-x86.3.0.0-preview8.19362.2.symbols.nupkg","version":"86.3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678085,"name":"assets/symbols/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null},{"id":1678086,"name":"assets/symbols/Microsoft.AspNetCore.App.Runtime.linux-arm.3.0.0-preview8.19362.2.symbols.nupkg","version":"3.0.0-preview8.19362.2","buildId":18009,"nonShipping":false,"locations":null}],"dependencies":null}
+{
+  "id": 18009,
+  "commit": "840c226e28ada143d9801be9917975ceb4ca625a",
+  "azureDevOpsBuildId": 262611,
+  "azureDevOpsBuildDefinitionId": 31,
+  "azureDevOpsAccount": "dnceng",
+  "azureDevOpsProject": "internal",
+  "azureDevOpsBuildNumber": "20190712.2",
+  "azureDevOpsRepository": "https://dev.azure.com/dnceng/internal/_git/aspnet-AspNetCore",
+  "azureDevOpsBranch": "refs/heads/master",
+  "gitHubRepository": "https://github.com/aspnet/AspNetCore",
+  "gitHubBranch": "refs/heads/master",
+  "publishUsingPipelines": false,
+  "dateProduced": "2019-07-12T20:48:53Z",
+  "channels": [
+    {
+      "id": 3,
+      "name": ".NET Core 3 Dev",
+      "classification": "product",
+      "releasePipelines": null
+    }
+  ],
+  "assets": [
+    {
+      "id": 1677722,
+      "name": "assets/symbols/Microsoft.Extensions.ApiDescription.Client.0.3.0-preview8.19362.2.symbols.nupkg",
+      "version": "0.3.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677723,
+      "name": "Microsoft.AspNetCore.JsonPatch",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677724,
+      "name": "Microsoft.AspNetCore.Identity.UI",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677725,
+      "name": "Microsoft.AspNetCore.Identity.Specification.Tests",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677726,
+      "name": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677727,
+      "name": "Microsoft.AspNetCore.Http.Features",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677728,
+      "name": "Microsoft.AspNetCore.Http.Connections.Common",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677729,
+      "name": "Microsoft.AspNetCore.Http.Connections.Client",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677730,
+      "name": "Microsoft.AspNetCore.Hosting.WindowsServices",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677731,
+      "name": "Microsoft.AspNetCore.Metadata",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677732,
+      "name": "Microsoft.AspNetCore.HeaderPropagation",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677733,
+      "name": "Microsoft.AspNetCore.DeveloperCertificates.XPlat",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677734,
+      "name": "Microsoft.AspNetCore.DataProtection.StackExchangeRedis",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677735,
+      "name": "Microsoft.AspNetCore.DataProtection.Extensions",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677736,
+      "name": "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677737,
+      "name": "Microsoft.AspNetCore.DataProtection.AzureStorage",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677738,
+      "name": "Microsoft.AspNetCore.DataProtection.AzureKeyVault",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677739,
+      "name": "Microsoft.AspNetCore.DataProtection.Abstractions",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677740,
+      "name": "Microsoft.AspNetCore.DataProtection",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677741,
+      "name": "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677742,
+      "name": "Microsoft.AspNetCore.MiddlewareAnalysis",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677743,
+      "name": "Microsoft.AspNetCore.Mvc.Analyzers",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677744,
+      "name": "Microsoft.AspNetCore.Mvc.Api.Analyzers",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677745,
+      "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677746,
+      "name": "Microsoft.AspNetCore.SpaServices",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677747,
+      "name": "Microsoft.AspNetCore.SignalR.StackExchangeRedis",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677748,
+      "name": "Microsoft.AspNetCore.SignalR.Specification.Tests",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677749,
+      "name": "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677750,
+      "name": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677751,
+      "name": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677752,
+      "name": "Microsoft.AspNetCore.SignalR.Common",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677753,
+      "name": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677754,
+      "name": "Microsoft.AspNetCore.SignalR.Client",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677755,
+      "name": "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677756,
+      "name": "Microsoft.AspNetCore.Server.IntegrationTesting.IIS",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677757,
+      "name": "Microsoft.AspNetCore.Server.IntegrationTesting",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677758,
+      "name": "Microsoft.AspNetCore.RequestThrottling",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677759,
+      "name": "Microsoft.AspNetCore.Owin",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677760,
+      "name": "Microsoft.AspNetCore.NodeServices",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677761,
+      "name": "Microsoft.AspNetCore.Mvc.Testing",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677762,
+      "name": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677763,
+      "name": "Microsoft.AspNetCore.Mvc.NewtonsoftJson",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677764,
+      "name": "Microsoft.AspNetCore.Cryptography.KeyDerivation",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677765,
+      "name": "Microsoft.AspNetCore.Cryptography.Internal",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677766,
+      "name": "Microsoft.AspNetCore.Connections.Abstractions",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677767,
+      "name": "Microsoft.AspNetCore.Components.Web",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677768,
+      "name": "Microsoft.AspNetCore.Authentication.AzureAD.UI",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677769,
+      "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677770,
+      "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677771,
+      "name": "Microsoft.AspNetCore.App.Ref",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677772,
+      "name": "Microsoft.AspNetCore.ApiAuthorization.IdentityServer",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677773,
+      "name": "Microsoft.AspNetCore.ANCMSymbols.win-x86",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677774,
+      "name": "Microsoft.AspNetCore.ANCMSymbols.win-x64",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677775,
+      "name": "Microsoft.AspNetCore.Analyzers.FeatureDetection.Sources",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677776,
+      "name": "Microsoft.AspNetCore.Analyzers",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677777,
+      "name": "dotnet-watch",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677778,
+      "name": "dotnet-user-secrets",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677779,
+      "name": "dotnet-sql-cache",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677780,
+      "name": "dotnet-dev-certs",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677781,
+      "name": "AspNetCoreRuntime.3.0.x86",
+      "version": "3.0.0-preview8-19362-2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677782,
+      "name": "AspNetCoreRuntime.3.0.x64",
+      "version": "3.0.0-preview8-19362-2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677783,
+      "name": "assets/symbols/Microsoft.Extensions.Identity.Stores.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677784,
+      "name": "assets/symbols/Microsoft.Extensions.Identity.Core.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677785,
+      "name": "assets/symbols/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677786,
+      "name": "assets/symbols/Microsoft.Extensions.ApiDescription.Server.0.3.0-preview8.19362.2.symbols.nupkg",
+      "version": "0.3.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677787,
+      "name": "Microsoft.AspNetCore.Authentication.AzureADB2C.UI",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677788,
+      "name": "Microsoft.AspNetCore.TestHost",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677789,
+      "name": "Microsoft.AspNetCore.Authentication.Certificate",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677790,
+      "name": "Microsoft.AspNetCore.Authentication.Google",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677791,
+      "name": "Microsoft.AspNetCore.Components.Analyzers",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677792,
+      "name": "Microsoft.AspNetCore.Components",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677793,
+      "name": "Microsoft.AspNetCore.Blazor.Templates",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677794,
+      "name": "Microsoft.AspNetCore.Blazor.Server",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677795,
+      "name": "Microsoft.AspNetCore.Blazor.HttpClient",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677796,
+      "name": "Microsoft.AspNetCore.Blazor.DevServer",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677797,
+      "name": "Microsoft.AspNetCore.Blazor.Build",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677798,
+      "name": "Microsoft.AspNetCore.Blazor",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677799,
+      "name": "Microsoft.AspNetCore.AzureAppServicesIntegration",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677800,
+      "name": "Microsoft.AspNetCore.AzureAppServices.SiteExtension.3.0.x86",
+      "version": "3.0.0-preview8-19362-2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677801,
+      "name": "Microsoft.AspNetCore.AzureAppServices.SiteExtension.3.0.x64",
+      "version": "3.0.0-preview8-19362-2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677802,
+      "name": "Microsoft.AspNetCore.AzureAppServices.HostingStartup",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677803,
+      "name": "Microsoft.AspNetCore.Authorization",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677804,
+      "name": "Microsoft.AspNetCore.Authentication.WsFederation",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677805,
+      "name": "Microsoft.AspNetCore.Authentication.Twitter",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677806,
+      "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677807,
+      "name": "Microsoft.AspNetCore.Authentication.Negotiate",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677808,
+      "name": "Microsoft.AspNetCore.Authentication.MicrosoftAccount",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677809,
+      "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677810,
+      "name": "Microsoft.AspNetCore.Authentication.Facebook",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677811,
+      "name": "Microsoft.DotNet.Web.Client.ItemTemplates",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677812,
+      "name": "Microsoft.DotNet.Web.ItemTemplates",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677813,
+      "name": "Microsoft.DotNet.Web.ProjectTemplates.3.0",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677814,
+      "name": "assets/symbols/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677815,
+      "name": "assets/symbols/Microsoft.AspNetCore.Mvc.NewtonsoftJson.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677816,
+      "name": "assets/symbols/Microsoft.AspNetCore.Mvc.Api.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677817,
+      "name": "assets/symbols/Microsoft.AspNetCore.Mvc.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677818,
+      "name": "assets/symbols/Microsoft.AspNetCore.MiddlewareAnalysis.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677819,
+      "name": "assets/symbols/Microsoft.AspNetCore.Metadata.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677820,
+      "name": "assets/symbols/Microsoft.AspNetCore.JsonPatch.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677821,
+      "name": "assets/symbols/Microsoft.AspNetCore.Identity.UI.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677822,
+      "name": "assets/symbols/Microsoft.AspNetCore.Identity.Specification.Tests.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677823,
+      "name": "assets/symbols/Microsoft.AspNetCore.Identity.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677824,
+      "name": "assets/symbols/Microsoft.AspNetCore.Http.Features.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677825,
+      "name": "assets/symbols/Microsoft.AspNetCore.Http.Connections.Common.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677826,
+      "name": "assets/symbols/Microsoft.AspNetCore.Http.Connections.Client.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677827,
+      "name": "assets/symbols/Microsoft.AspNetCore.Hosting.WindowsServices.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677828,
+      "name": "assets/symbols/Microsoft.AspNetCore.HeaderPropagation.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677829,
+      "name": "assets/symbols/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677830,
+      "name": "assets/symbols/Microsoft.AspNetCore.DeveloperCertificates.XPlat.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677831,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.StackExchangeRedis.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677832,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.Extensions.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677833,
+      "name": "assets/symbols/Microsoft.AspNetCore.Mvc.Testing.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677834,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677835,
+      "name": "assets/symbols/Microsoft.AspNetCore.NodeServices.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677836,
+      "name": "assets/symbols/Microsoft.AspNetCore.RequestThrottling.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677837,
+      "name": "assets/symbols/Microsoft.Extensions.Identity.Stores.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677838,
+      "name": "assets/symbols/Microsoft.Extensions.Identity.Core.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677839,
+      "name": "assets/symbols/Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677840,
+      "name": "assets/symbols/Microsoft.Extensions.ApiDescription.Server.0.3.0-preview8.19362.2.symbols.nupkg",
+      "version": "0.3.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677841,
+      "name": "assets/symbols/Microsoft.Extensions.ApiDescription.Client.0.3.0-preview8.19362.2.symbols.nupkg",
+      "version": "0.3.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677842,
+      "name": "assets/symbols/Microsoft.AspNetCore.TestHost.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677843,
+      "name": "assets/symbols/Microsoft.AspNetCore.SpaServices.Extensions.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677844,
+      "name": "assets/symbols/Microsoft.AspNetCore.SpaServices.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677845,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.StackExchangeRedis.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677846,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Specification.Tests.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677847,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677848,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.MessagePack.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677849,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.Json.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677850,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Common.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677851,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Client.Core.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677852,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Client.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677853,
+      "name": "assets/symbols/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677854,
+      "name": "assets/symbols/Microsoft.AspNetCore.Server.IntegrationTesting.IIS.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677855,
+      "name": "assets/symbols/Microsoft.AspNetCore.Server.IntegrationTesting.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677856,
+      "name": "assets/symbols/Microsoft.AspNetCore.Owin.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677857,
+      "name": "assets/symbols/Microsoft.AspNetCore.TestHost.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677858,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.AzureStorage.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677859,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.Abstractions.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677860,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.Certificate.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677861,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.AzureADB2C.UI.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677862,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.AzureAD.UI.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677863,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.win-x86.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "86.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677864,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.win-x64.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "64.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677865,
+      "name": "assets/symbols/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677866,
+      "name": "assets/symbols/Microsoft.AspNetCore.ANCMSymbols.win-x86.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "86.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677867,
+      "name": "assets/symbols/Microsoft.AspNetCore.ANCMSymbols.win-x64.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "64.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677868,
+      "name": "assets/symbols/Microsoft.AspNetCore.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677869,
+      "name": "assets/symbols/dotnet-watch.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677870,
+      "name": "assets/symbols/dotnet-user-secrets.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677871,
+      "name": "assets/symbols/dotnet-sql-cache.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677872,
+      "name": "assets/symbols/dotnet-dev-certs.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677873,
+      "name": "Microsoft.Extensions.Identity.Stores",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677874,
+      "name": "Microsoft.Extensions.Identity.Core",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677875,
+      "name": "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677876,
+      "name": "Microsoft.Extensions.ApiDescription.Server",
+      "version": "0.3.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677877,
+      "name": "Microsoft.Extensions.ApiDescription.Client",
+      "version": "0.3.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677878,
+      "name": "Microsoft.DotNet.Web.Spa.ProjectTemplates.3.0",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677879,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.Facebook.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677880,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.AzureKeyVault.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677881,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.Google.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677882,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.MicrosoftAccount.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677883,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677884,
+      "name": "assets/symbols/Microsoft.AspNetCore.Cryptography.KeyDerivation.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677885,
+      "name": "assets/symbols/Microsoft.AspNetCore.Cryptography.Internal.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677886,
+      "name": "assets/symbols/Microsoft.AspNetCore.Connections.Abstractions.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677887,
+      "name": "assets/symbols/Microsoft.AspNetCore.Components.Web.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677888,
+      "name": "assets/symbols/Microsoft.AspNetCore.Components.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677889,
+      "name": "assets/symbols/Microsoft.AspNetCore.Components.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677890,
+      "name": "assets/symbols/Microsoft.AspNetCore.Blazor.Server.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677891,
+      "name": "assets/symbols/Microsoft.AspNetCore.Blazor.HttpClient.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677892,
+      "name": "assets/symbols/Microsoft.AspNetCore.Blazor.DevServer.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677893,
+      "name": "assets/symbols/Microsoft.AspNetCore.Blazor.Build.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677894,
+      "name": "assets/symbols/Microsoft.AspNetCore.Blazor.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677895,
+      "name": "assets/symbols/Microsoft.AspNetCore.AzureAppServicesIntegration.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677896,
+      "name": "assets/symbols/Microsoft.AspNetCore.AzureAppServices.HostingStartup.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677897,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authorization.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677898,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.WsFederation.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677899,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.Twitter.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677900,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.OpenIdConnect.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677901,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.Negotiate.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677902,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.JwtBearer.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677903,
+      "name": "assets/symbols/Microsoft.AspNetCore.SpaServices.Extensions.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677904,
+      "name": "assets/symbols/Microsoft.AspNetCore.SpaServices.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677905,
+      "name": "Microsoft.AspNetCore.SignalR.Common",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677906,
+      "name": "Microsoft.AspNetCore.HeaderPropagation",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677907,
+      "name": "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677908,
+      "name": "Microsoft.AspNetCore.DeveloperCertificates.XPlat",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677909,
+      "name": "Microsoft.AspNetCore.DataProtection.StackExchangeRedis",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677910,
+      "name": "Microsoft.AspNetCore.DataProtection.Extensions",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677911,
+      "name": "Microsoft.AspNetCore.DataProtection.EntityFrameworkCore",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677912,
+      "name": "Microsoft.AspNetCore.DataProtection.AzureStorage",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677913,
+      "name": "Microsoft.AspNetCore.DataProtection.AzureKeyVault",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677914,
+      "name": "Microsoft.AspNetCore.Hosting.WindowsServices",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677915,
+      "name": "Microsoft.AspNetCore.DataProtection.Abstractions",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677916,
+      "name": "Microsoft.AspNetCore.Cryptography.KeyDerivation",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677917,
+      "name": "Microsoft.AspNetCore.Cryptography.Internal",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677918,
+      "name": "Microsoft.AspNetCore.Connections.Abstractions",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677919,
+      "name": "Microsoft.AspNetCore.Components.Web",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677920,
+      "name": "Microsoft.AspNetCore.Components.Analyzers",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677921,
+      "name": "Microsoft.AspNetCore.Components",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677922,
+      "name": "Microsoft.AspNetCore.Blazor.Templates",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677923,
+      "name": "Microsoft.AspNetCore.Blazor.Server",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677924,
+      "name": "Microsoft.AspNetCore.DataProtection",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677925,
+      "name": "Microsoft.AspNetCore.Http.Connections.Client",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677926,
+      "name": "Microsoft.AspNetCore.Http.Connections.Common",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677927,
+      "name": "Microsoft.AspNetCore.Http.Features",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677928,
+      "name": "Microsoft.AspNetCore.SignalR.Client.Core",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677929,
+      "name": "Microsoft.AspNetCore.SignalR.Client",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677930,
+      "name": "Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677931,
+      "name": "Microsoft.AspNetCore.Server.IntegrationTesting.IIS",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677932,
+      "name": "Microsoft.AspNetCore.Server.IntegrationTesting",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677933,
+      "name": "Microsoft.AspNetCore.RequestThrottling",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677934,
+      "name": "Microsoft.AspNetCore.Owin",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677935,
+      "name": "Microsoft.AspNetCore.NodeServices",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677936,
+      "name": "Microsoft.AspNetCore.Mvc.Testing",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677937,
+      "name": "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677938,
+      "name": "Microsoft.AspNetCore.Mvc.NewtonsoftJson",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677939,
+      "name": "Microsoft.AspNetCore.Mvc.Api.Analyzers",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677940,
+      "name": "Microsoft.AspNetCore.Mvc.Analyzers",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677941,
+      "name": "Microsoft.AspNetCore.MiddlewareAnalysis",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677942,
+      "name": "Microsoft.AspNetCore.Metadata",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677943,
+      "name": "Microsoft.AspNetCore.JsonPatch",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677944,
+      "name": "Microsoft.AspNetCore.Identity.UI",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677945,
+      "name": "Microsoft.AspNetCore.Identity.Specification.Tests",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677946,
+      "name": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677947,
+      "name": "Microsoft.AspNetCore.Blazor.HttpClient",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677948,
+      "name": "Microsoft.AspNetCore.Blazor.DevServer",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677949,
+      "name": "Microsoft.AspNetCore.Blazor.Build",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677950,
+      "name": "Microsoft.AspNetCore.Blazor",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677951,
+      "name": "Microsoft.AspNetCore.Analyzers.FeatureDetection.Sources",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677952,
+      "name": "Microsoft.AspNetCore.Analyzers",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677953,
+      "name": "dotnet-watch",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677954,
+      "name": "dotnet-user-secrets",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677955,
+      "name": "dotnet-sql-cache",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677956,
+      "name": "dotnet-dev-certs",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677957,
+      "name": "AspNetCoreRuntime.3.0.x86",
+      "version": "3.0.0-preview8-19362-2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677958,
+      "name": "AspNetCoreRuntime.3.0.x64",
+      "version": "3.0.0-preview8-19362-2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677959,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.win-arm.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677960,
+      "name": "Microsoft.AspNetCore.App.Runtime.win-arm",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677961,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.osx-x64.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "64.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677962,
+      "name": "Microsoft.AspNetCore.App.Runtime.osx-x64",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677963,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.linux-x64.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "64.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677964,
+      "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677965,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.linux-musl-x64.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "64.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677966,
+      "name": "Microsoft.AspNetCore.App.Runtime.linux-musl-x64",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677967,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.linux-musl-arm64.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "64.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677968,
+      "name": "Microsoft.AspNetCore.App.Runtime.linux-musl-arm64",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677969,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.linux-arm64.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "64.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677970,
+      "name": "Microsoft.AspNetCore.ANCMSymbols.win-x64",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677971,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.StackExchangeRedis.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677972,
+      "name": "Microsoft.AspNetCore.ANCMSymbols.win-x86",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677973,
+      "name": "Microsoft.AspNetCore.App.Ref",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677974,
+      "name": "Microsoft.AspNetCore.AzureAppServicesIntegration",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677975,
+      "name": "Microsoft.AspNetCore.AzureAppServices.SiteExtension.3.0.x86",
+      "version": "3.0.0-preview8-19362-2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677976,
+      "name": "Microsoft.AspNetCore.AzureAppServices.SiteExtension.3.0.x64",
+      "version": "3.0.0-preview8-19362-2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677977,
+      "name": "Microsoft.AspNetCore.AzureAppServices.SiteExtension",
+      "version": "3.0.0-preview8-19362-2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1677978,
+      "name": "Microsoft.AspNetCore.AzureAppServices.HostingStartup",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677979,
+      "name": "Microsoft.AspNetCore.Authorization",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677980,
+      "name": "Microsoft.AspNetCore.Authentication.WsFederation",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677981,
+      "name": "Microsoft.AspNetCore.Authentication.Twitter",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677982,
+      "name": "Microsoft.AspNetCore.Authentication.OpenIdConnect",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677983,
+      "name": "Microsoft.AspNetCore.Authentication.Negotiate",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677984,
+      "name": "Microsoft.AspNetCore.Authentication.MicrosoftAccount",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677985,
+      "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677986,
+      "name": "Microsoft.AspNetCore.Authentication.Google",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677987,
+      "name": "Microsoft.AspNetCore.Authentication.Facebook",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677988,
+      "name": "Microsoft.AspNetCore.Authentication.Certificate",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677989,
+      "name": "Microsoft.AspNetCore.Authentication.AzureADB2C.UI",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677990,
+      "name": "Microsoft.AspNetCore.Authentication.AzureAD.UI",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677991,
+      "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677992,
+      "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677993,
+      "name": "Microsoft.AspNetCore.ApiAuthorization.IdentityServer",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677994,
+      "name": "Microsoft.AspNetCore.SignalR.Protocols.Json",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677995,
+      "name": "Microsoft.AspNetCore.SignalR.Protocols.MessagePack",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677996,
+      "name": "Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677997,
+      "name": "assets/symbols/Microsoft.AspNetCore.Identity.Specification.Tests.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677998,
+      "name": "assets/symbols/Microsoft.AspNetCore.Identity.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1677999,
+      "name": "assets/symbols/Microsoft.AspNetCore.Http.Features.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678000,
+      "name": "assets/symbols/Microsoft.AspNetCore.Http.Connections.Common.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678001,
+      "name": "assets/symbols/Microsoft.AspNetCore.Http.Connections.Client.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678002,
+      "name": "assets/symbols/Microsoft.AspNetCore.Hosting.WindowsServices.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678003,
+      "name": "assets/symbols/Microsoft.AspNetCore.HeaderPropagation.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678004,
+      "name": "assets/symbols/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678005,
+      "name": "assets/symbols/Microsoft.AspNetCore.DeveloperCertificates.XPlat.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678006,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.StackExchangeRedis.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678007,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.Extensions.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678008,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.EntityFrameworkCore.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678009,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.AzureStorage.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678010,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.AzureKeyVault.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678011,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.Abstractions.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678012,
+      "name": "assets/symbols/Microsoft.AspNetCore.DataProtection.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678013,
+      "name": "assets/symbols/Microsoft.AspNetCore.Cryptography.KeyDerivation.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678014,
+      "name": "assets/symbols/Microsoft.AspNetCore.Cryptography.Internal.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678015,
+      "name": "assets/symbols/Microsoft.AspNetCore.Connections.Abstractions.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678016,
+      "name": "assets/symbols/Microsoft.AspNetCore.Identity.UI.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678017,
+      "name": "assets/symbols/Microsoft.AspNetCore.Components.Web.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678018,
+      "name": "assets/symbols/Microsoft.AspNetCore.JsonPatch.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678019,
+      "name": "assets/symbols/Microsoft.AspNetCore.MiddlewareAnalysis.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678020,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Specification.Tests.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678021,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678022,
+      "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678023,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.MessagePack.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678024,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Protocols.Json.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678025,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Common.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678026,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Client.Core.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678027,
+      "name": "assets/symbols/Microsoft.AspNetCore.SignalR.Client.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678028,
+      "name": "assets/symbols/Microsoft.AspNetCore.Server.Kestrel.Transport.Libuv.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678029,
+      "name": "assets/symbols/Microsoft.AspNetCore.Server.IntegrationTesting.IIS.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678030,
+      "name": "assets/symbols/Microsoft.AspNetCore.Server.IntegrationTesting.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678031,
+      "name": "assets/symbols/Microsoft.AspNetCore.RequestThrottling.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678032,
+      "name": "assets/symbols/Microsoft.AspNetCore.Owin.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678033,
+      "name": "assets/symbols/Microsoft.AspNetCore.NodeServices.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678034,
+      "name": "assets/symbols/Microsoft.AspNetCore.Mvc.Testing.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678035,
+      "name": "assets/symbols/Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678036,
+      "name": "assets/symbols/Microsoft.AspNetCore.Mvc.NewtonsoftJson.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678037,
+      "name": "assets/symbols/Microsoft.AspNetCore.Mvc.Api.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678038,
+      "name": "assets/symbols/Microsoft.AspNetCore.Mvc.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678039,
+      "name": "assets/symbols/Microsoft.AspNetCore.Metadata.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678040,
+      "name": "Microsoft.AspNetCore.App.Runtime.linux-arm64",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678041,
+      "name": "assets/symbols/Microsoft.AspNetCore.Components.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678042,
+      "name": "assets/symbols/Microsoft.AspNetCore.Blazor.Server.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678043,
+      "name": "assets/symbols/Microsoft.AspNetCore.Analyzers.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678044,
+      "name": "assets/symbols/dotnet-watch.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678045,
+      "name": "assets/symbols/dotnet-user-secrets.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678046,
+      "name": "assets/symbols/dotnet-sql-cache.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678047,
+      "name": "assets/symbols/dotnet-dev-certs.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678048,
+      "name": "Microsoft.Extensions.Identity.Stores",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678049,
+      "name": "Microsoft.Extensions.Identity.Core",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678050,
+      "name": "Microsoft.Extensions.Diagnostics.HealthChecks.EntityFrameworkCore",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678051,
+      "name": "Microsoft.Extensions.ApiDescription.Server",
+      "version": "0.3.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678052,
+      "name": "Microsoft.Extensions.ApiDescription.Client",
+      "version": "0.3.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678053,
+      "name": "Microsoft.DotNet.Web.Spa.ProjectTemplates.3.0",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678054,
+      "name": "Microsoft.DotNet.Web.ProjectTemplates.3.0",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678055,
+      "name": "Microsoft.DotNet.Web.ItemTemplates",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678056,
+      "name": "Microsoft.DotNet.Web.Client.ItemTemplates",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678057,
+      "name": "Microsoft.AspNetCore.TestHost",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678058,
+      "name": "Microsoft.AspNetCore.SpaServices.Extensions",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678059,
+      "name": "Microsoft.AspNetCore.SpaServices",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678060,
+      "name": "Microsoft.AspNetCore.SignalR.StackExchangeRedis",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678061,
+      "name": "Microsoft.AspNetCore.SignalR.Specification.Tests",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678062,
+      "name": "assets/symbols/Microsoft.AspNetCore.ANCMSymbols.win-x64.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "64.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678063,
+      "name": "assets/symbols/Microsoft.AspNetCore.Components.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678064,
+      "name": "assets/symbols/Microsoft.AspNetCore.ANCMSymbols.win-x86.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "86.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": true,
+      "locations": null
+    },
+    {
+      "id": 1678065,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.win-x64.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "64.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678066,
+      "name": "assets/symbols/Microsoft.AspNetCore.Blazor.HttpClient.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678067,
+      "name": "assets/symbols/Microsoft.AspNetCore.Blazor.DevServer.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678068,
+      "name": "assets/symbols/Microsoft.AspNetCore.Blazor.Build.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678069,
+      "name": "assets/symbols/Microsoft.AspNetCore.Blazor.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678070,
+      "name": "assets/symbols/Microsoft.AspNetCore.AzureAppServicesIntegration.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678071,
+      "name": "assets/symbols/Microsoft.AspNetCore.AzureAppServices.HostingStartup.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678072,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authorization.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678073,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.WsFederation.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678074,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.Twitter.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678075,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.OpenIdConnect.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678076,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.Negotiate.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678077,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.MicrosoftAccount.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678078,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.JwtBearer.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678079,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.Google.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678080,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.Facebook.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678081,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.Certificate.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678082,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.AzureADB2C.UI.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678083,
+      "name": "assets/symbols/Microsoft.AspNetCore.Authentication.AzureAD.UI.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678084,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.win-x86.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "86.3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678085,
+      "name": "assets/symbols/Microsoft.AspNetCore.ApiAuthorization.IdentityServer.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    },
+    {
+      "id": 1678086,
+      "name": "assets/symbols/Microsoft.AspNetCore.App.Runtime.linux-arm.3.0.0-preview8.19362.2.symbols.nupkg",
+      "version": "3.0.0-preview8.19362.2",
+      "buildId": 18009,
+      "nonShipping": false,
+      "locations": null
+    }
+  ],
+  "dependencies": null
+}
