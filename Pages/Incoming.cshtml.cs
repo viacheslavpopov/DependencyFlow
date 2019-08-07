@@ -23,11 +23,10 @@ namespace DependencyFlow.Pages
         public IReadOnlyList<IncomingRepo> IncomingRepositories { get; private set; }
         public RateLimit CurrentRateLimit { get; private set; }
 
-        public async Task OnGet(int channelId, string repo)
+        public async Task OnGet(int channelId, string owner, string repo)
         {
-            // The 'repo' is URL encoded (because it's a URL within a URL). Decode it before calling the API.
-            var decodedRepo = WebUtility.UrlDecode(repo);
-            var latest = await _client.GetLatestAsync(decodedRepo, null, null, channelId, null, null, false, ApiVersion10._20190116);
+            var repoUrl = $"https://github.com/{owner}/{repo}";
+            var latest = await _client.GetLatestAsync(repoUrl, null, null, channelId, null, null, false, ApiVersion10._20190116);
             var graph = await _client.GetBuildGraphAsync(latest.Id, (ApiVersion9)ApiVersion40._20190116);
             latest = graph.Builds[latest.Id.ToString()];
 

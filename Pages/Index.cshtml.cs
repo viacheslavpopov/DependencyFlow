@@ -31,11 +31,13 @@ namespace DependencyFlow.Pages
         public IActionResult OnPost(int channelId, string repo)
         {
             var match = _repoReferenceParser.Match(repo);
+            var owner = "";
             if(match.Success)
             {
-                repo = $"https://github.com/{match.Groups["owner"].Value}/{match.Groups["repo"].Value}";
+                owner = match.Groups["owner"].Value;
+                repo = match.Groups["repo"].Value;
             }
-            return Redirect(Url.Page("Incoming", new { channelId, repo }));
+            return Redirect(Url.Page("Incoming", new { channelId, owner, repo }));
         }
     }
 }
