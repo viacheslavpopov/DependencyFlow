@@ -36,7 +36,7 @@
             <div class="card-header">@incoming.ShortName</div>
             <div class="card-body">
                 <h5 class="card-title">
-                    @(incoming.CommitDistance == 0 ? "✔" : $"{incoming.CommitDistance} commit behind")
+                    @(incoming.CommitDistance == null ? "??? commits behind" : incoming.CommitDistance == 0 ? "✔" : $"{incoming.CommitDistance} commit behind")
                 </h5>
                 <p class="card-text"><a class="@linkClass" target="_blank" href="@incoming.BuildUrl">Build @incoming.Build.AzureDevOpsBuildNumber</a></p>
                 <p class="card-text">@incoming.Build.DateProduced.Humanize()</p>

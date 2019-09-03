@@ -4,6 +4,7 @@ using System.Net;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Extensions.Logging;
 using Octokit;
 
 namespace DependencyFlow.Pages
@@ -13,11 +14,13 @@ namespace DependencyFlow.Pages
         private static readonly Regex _repoParser = new Regex(@"https?://(www\.)?github.com/(?<owner>[A-Za-z0-9-_\.]+)/(?<repo>[A-Za-z0-9-_\.]+)");
         private readonly swaggerClient _client;
         private readonly GitHubClient _github;
+        private readonly ILogger<IncomingModel> _logger;
 
-        public IncomingModel(swaggerClient client, GitHubClient github)
+        public IncomingModel(swaggerClient client, GitHubClient github, ILogger<IncomingModel> logger)
         {
             _client = client;
             _github = github;
+            _logger = logger;
         }
 
         public IReadOnlyList<IncomingRepo> IncomingRepositories { get; private set; }
@@ -69,16 +72,25 @@ namespace DependencyFlow.Pages
             {
                 return $"{build.GitHubRepository}/commits/{build.Commit}";
             }
-            return $"{build.AzureDevOpsRepository}/commits?itemPath=%2F&itemVersion=GC{build.Commit}";;
+            return $"{build.AzureDevOpsRepository}/commits?itemPath=%2F&itemVersion=GC{build.Commit}";
         }
 
         private async Task<int?> ComputeCommitsBehindAsync(GitHubInfo gitHubInfo, Build build)
         {
-            var comparison = await _github.Repository.Commit.Compare(gitHubInfo.Owner, gitHubInfo.Repo, build.Commit, build.GitHubBranch);
+            try
+            {
+                var comparison = await _github.Repository.Commit.Compare(gitHubInfo.Owner, gitHubInfo.Repo, build.Commit, build.GitHubBranch);
 
-            // We're using the branch as the "head" so "ahead by" is actually how far the branch (i.e. "master") is
-            // ahead of the commit. So it's also how far **behind** the commit is from the branch head.
-            return comparison.AheadBy;
+                // We're using the branch as the "head" so "ahead by" is actually how far the branch (i.e. "master") is
+                // ahead of the commit. So it's also how far **behind** the commit is from the branch head.
+                return comparison.AheadBy;
+            }
+            catch (NotFoundException)
+            {
+                _logger.LogWarning("Failed to compare commit history for '{0}/{1}' between '{2}' and '{3}'.", gitHubInfo.Owner, gitHubInfo.Repo,
+                    build.Commit, build.GitHubBranch);
+                return null;
+            }
         }
     }
 
