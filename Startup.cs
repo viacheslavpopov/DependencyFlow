@@ -28,7 +28,7 @@ namespace DependencyFlow
                 var authToken = Configuration["AuthToken"];
                 client.DefaultRequestHeaders.Add(HeaderNames.UserAgent, UserAgentValue);
                 client.DefaultRequestHeaders.Add(
-                    HeaderNames.Authorization, 
+                    HeaderNames.Authorization,
                     new AuthenticationHeaderValue("Bearer", authToken).ToString());
             });
 
