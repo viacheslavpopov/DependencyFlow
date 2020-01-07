@@ -52,13 +52,16 @@ namespace DependencyFlow.Pages
                     }
                 }
 
+                var (commitDistance, commitAge) = await GetCommitInfo(gitHubInfo, build);
+
                 incoming.Add(new IncomingRepo()
                 {
                     Build = build,
                     ShortName = gitHubInfo?.Repo,
                     CommitUrl = GetCommitUrl(build),
                     BuildUrl = $"https://dev.azure.com/{build.AzureDevOpsAccount}/{build.AzureDevOpsProject}/_build/results?buildId={build.AzureDevOpsBuildId}&view=results",
-                    CommitDistance = gitHubInfo == null ? null : await ComputeCommitsBehindAsync(gitHubInfo, build)
+                    CommitDistance = commitDistance,
+                    CommitAge = commitAge
                 });
             }
             IncomingRepositories = incoming;
@@ -75,15 +78,13 @@ namespace DependencyFlow.Pages
             return $"{build.AzureDevOpsRepository}/commits?itemPath=%2F&itemVersion=GC{build.Commit}";
         }
 
-        private async Task<int?> ComputeCommitsBehindAsync(GitHubInfo gitHubInfo, Build build)
+        private async Task<CompareResult> GetCommitsBehindAsync(GitHubInfo gitHubInfo, Build build)
         {
             try
             {
                 var comparison = await _github.Repository.Commit.Compare(gitHubInfo.Owner, gitHubInfo.Repo, build.Commit, build.GitHubBranch);
 
-                // We're using the branch as the "head" so "ahead by" is actually how far the branch (i.e. "master") is
-                // ahead of the commit. So it's also how far **behind** the commit is from the branch head.
-                return comparison.AheadBy;
+                return comparison;
             }
             catch (NotFoundException)
             {
@@ -91,6 +92,38 @@ namespace DependencyFlow.Pages
                     build.Commit, build.GitHubBranch);
                 return null;
             }
+        }
+
+        private async Task<(int?, DateTimeOffset)> GetCommitInfo(GitHubInfo gitHubInfo, Build build)
+        {
+            var commitAge = DateTimeOffset.Now;
+            int? commitDistance = null;
+            if (gitHubInfo == null)
+            {
+                commitAge = build.DateProduced;
+            }
+            else
+            {
+                var comparison = await GetCommitsBehindAsync(gitHubInfo, build);
+                foreach (var commit in comparison.Commits)
+                {
+                    if (commit.Commit.Author.Date < commitAge)
+                    {
+                        commitAge = commit.Commit.Author.Date;
+                    }
+                }
+
+                if (comparison.Commits.Count == 0)
+                {
+                    commitAge = build.DateProduced;
+                }
+
+                // We're using the branch as the "head" so "ahead by" is actually how far the branch (i.e. "master") is
+                // ahead of the commit. So it's also how far **behind** the commit is from the branch head.
+                commitDistance = comparison.AheadBy;
+            }
+
+            return (commitDistance, commitAge);
         }
     }
 
@@ -101,6 +134,7 @@ namespace DependencyFlow.Pages
         public int? CommitDistance { get; set; }
         public string CommitUrl { get; set; }
         public string BuildUrl { get; set; }
+        public DateTimeOffset CommitAge { get; set; }
     }
 
     public class GitHubInfo
