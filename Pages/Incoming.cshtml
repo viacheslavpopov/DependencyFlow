@@ -44,10 +44,9 @@
                 <p class="card-text">
                     Oldest unconsumed commit was @incoming.CommitAge.Humanize()
                 </p>
-                <p class="card-text"><a class="@linkClass" target="_blank" href="@incoming.BuildUrl">Build @incoming.Build.AzureDevOpsBuildNumber</a></p>
             </div>
             <div class="card-footer">
-                <a class="@linkClass" target="_blank" href="@incoming.CommitUrl">@incoming.Build.Commit.Substring(0, 6)</a>
+                <a class="@linkClass" target="_blank" href="@incoming.BuildUrl">Build @incoming.Build.AzureDevOpsBuildNumber</a> | <a class="@linkClass" target="_blank" href="@incoming.CommitUrl">@incoming.Build.Commit.Substring(0, 6)</a>
             </div>
         </div>
 
