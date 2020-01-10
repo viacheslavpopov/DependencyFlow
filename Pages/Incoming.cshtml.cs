@@ -107,9 +107,9 @@ namespace DependencyFlow.Pages
                 var comparison = await GetCommitsBehindAsync(gitHubInfo, build);
                 foreach (var commit in comparison.Commits)
                 {
-                    if (commit.Commit.Author.Date < commitAge)
+                    if (commit.Commit.Committer.Date < commitAge)
                     {
-                        commitAge = commit.Commit.Author.Date;
+                        commitAge = commit.Commit.Committer.Date;
                     }
                 }
 
