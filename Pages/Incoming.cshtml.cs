@@ -96,34 +96,22 @@ namespace DependencyFlow.Pages
 
         private async Task<(int?, DateTimeOffset)> GetCommitInfo(GitHubInfo gitHubInfo, Build build)
         {
-            var commitAge = DateTimeOffset.Now;
+            var commitAge = build.DateProduced;
             int? commitDistance = null;
-            if (gitHubInfo == null)
+            var comparison = await GetCommitsBehindAsync(gitHubInfo, build);
+            if (comparison != null)
             {
-                commitAge = build.DateProduced;
-            }
-            else
-            {
-                var comparison = await GetCommitsBehindAsync(gitHubInfo, build);
-                if (comparison != null)
+                foreach (var commit in comparison.Commits)
                 {
-                    foreach (var commit in comparison.Commits)
+                    if (commit.Commit.Committer.Date < commitAge)
                     {
-                        if (commit.Commit.Committer.Date < commitAge)
-                        {
-                            commitAge = commit.Commit.Committer.Date;
-                        }
+                        commitAge = commit.Commit.Committer.Date;
                     }
-
-                    if (comparison.Commits.Count == 0)
-                    {
-                        commitAge = build.DateProduced;
-                    }
-
-                    // We're using the branch as the "head" so "ahead by" is actually how far the branch (i.e. "master") is
-                    // ahead of the commit. So it's also how far **behind** the commit is from the branch head.
-                    commitDistance = comparison.AheadBy;
                 }
+
+                // We're using the branch as the "head" so "ahead by" is actually how far the branch (i.e. "master") is
+                // ahead of the commit. So it's also how far **behind** the commit is from the branch head.
+                commitDistance = comparison.AheadBy;
             }
 
             return (commitDistance, commitAge);
