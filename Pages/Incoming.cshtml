@@ -17,7 +17,7 @@
         string linkClass = "link-light";
         string statusIcon = "✔️";
 
-        var elapsed = DateTime.UtcNow - incoming.CommitAge.UtcDateTime;
+        var elapsed = (incoming.CommitAge == null ? TimeSpan.FromDays(100) : DateTime.UtcNow - incoming.CommitAge.Value.UtcDateTime);
         if (incoming.CommitDistance == 0 || elapsed.TotalDays < 5)
         {
             conditionClass = "bg-primary";
@@ -42,7 +42,7 @@
                     @statusIcon We are @(incoming.CommitDistance == null ? "(unknown)" : incoming.CommitDistance == 0 ? "0" : $"{incoming.CommitDistance}") commit(s) behind
                 </h5>
                 <p class="card-text">
-                    Oldest unconsumed commit was @incoming.CommitAge.Humanize()
+                    Oldest unconsumed commit was @(incoming.CommitAge == null ? "(unknown)" : incoming.CommitAge.Humanize())
                 </p>
             </div>
             <div class="card-footer">

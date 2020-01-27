@@ -94,26 +94,45 @@ namespace DependencyFlow.Pages
             }
         }
 
-        private async Task<(int?, DateTimeOffset)> GetCommitInfo(GitHubInfo gitHubInfo, Build build)
+        private async Task<(int?, DateTimeOffset?)> GetCommitInfo(GitHubInfo gitHubInfo, Build build)
         {
-            var commitAge = build.DateProduced;
+            DateTimeOffset? commitAge = build.DateProduced;
             int? commitDistance = null;
             if (gitHubInfo != null)
             {
                 var comparison = await GetCommitsBehindAsync(gitHubInfo, build);
-                if (comparison != null)
+
+                // We're using the branch as the "head" so "ahead by" is actually how far the branch (i.e. "master") is
+                // ahead of the commit. So it's also how far **behind** the commit is from the branch head.
+                commitDistance = comparison?.AheadBy;
+
+                if (comparison != null && comparison.Commits.Count > 0)
                 {
-                    foreach (var commit in comparison.Commits)
+                    // Follow the first parent starting at the last unconsumed commit until we find the commit directly after our current consumed commit
+                    var nextCommit = comparison.Commits[comparison.Commits.Count - 1];
+                    while (nextCommit.Parents[0].Sha != build.Commit)
                     {
-                        if (commit.Commit.Committer.Date < commitAge)
+                        bool foundCommit = false;
+                        foreach (var commit in comparison.Commits)
                         {
-                            commitAge = commit.Commit.Committer.Date;
+                            if (commit.Sha == nextCommit.Parents[0].Sha)
+                            {
+                                nextCommit = commit;
+                                foundCommit = true;
+                                break;
+                            }
+                        }
+
+                        if (foundCommit == false)
+                        {
+                            // something went wrong
+                            _logger.LogWarning("Failed to follow commit parents and find correct commit age.");
+                            commitAge = null;
+                            return (commitDistance, commitAge);
                         }
                     }
 
-                    // We're using the branch as the "head" so "ahead by" is actually how far the branch (i.e. "master") is
-                    // ahead of the commit. So it's also how far **behind** the commit is from the branch head.
-                    commitDistance = comparison.AheadBy;
+                    commitAge = nextCommit.Commit.Committer.Date;
                 }
             }
             return (commitDistance, commitAge);
@@ -127,7 +146,7 @@ namespace DependencyFlow.Pages
         public int? CommitDistance { get; set; }
         public string CommitUrl { get; set; }
         public string BuildUrl { get; set; }
-        public DateTimeOffset CommitAge { get; set; }
+        public DateTimeOffset? CommitAge { get; set; }
     }
 
     public class GitHubInfo
