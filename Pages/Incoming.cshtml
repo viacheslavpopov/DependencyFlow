@@ -5,7 +5,7 @@
     @{
         var index = 0;
     }
-    @foreach (var incoming in Model.IncomingRepositories.OrderByDescending(r => r.ShortName))
+    @foreach (var incoming in Model.IncomingRepositories.OrderBy(r => r.ShortName))
     {
         // We compute the "condition" of a dependency by first checking how old the build we have is.
         // If it's older than we'd like, we then ALSO check the number of commits that we're missing
