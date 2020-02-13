@@ -59,7 +59,7 @@
     }
 </div>
 
-<small>Rate Limit Remaining: @Model.CurrentRateLimit.Remaining (Resets @Model.CurrentRateLimit.Reset.Humanize())</small>
+<small>Rate Limit Remaining: @Model.CurrentRateLimit.Remaining (Resets @Model.CurrentRateLimit.Reset.Humanize()) | Built for branch @(Program.SourceBranch ?? "unknown")@@@(Program.SourceVersion ?? "unknown")</small>
 
 @functions
 {
