@@ -59,12 +59,28 @@
     }
 </div>
 
-<small>Rate Limit Remaining: @Model.CurrentRateLimit.Remaining (Resets @Model.CurrentRateLimit.Reset.Humanize()) | Built for branch @(Program.SourceBranch ?? "unknown")@@@(Program.SourceVersion ?? "unknown")</small>
+<small>Rate Limit Remaining: @Model.CurrentRateLimit.Remaining (Resets @Model.CurrentRateLimit.Reset.Humanize()) | @GetBuildInfo()</small>
 
 @functions
 {
     string DisplayFor(string repository)
     {
         return repository.Substring("https://github.com/".Length);
+    }
+
+    string GetBuildInfo()
+    {
+        if (Program.SourceVersion == null)
+        {
+            return "Local build";
+        }
+
+        var branch = Program.SourceBranch ?? "unknown";
+
+        if (branch.StartsWith("refs/heads/"))
+            branch = branch.Substring("refs/heads/".Length);
+
+        var sha = Program.SourceVersion?.Substring(0, 6);
+        return $"Built for branch {branch}@{sha}";
     }
 }
