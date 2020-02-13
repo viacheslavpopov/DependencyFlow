@@ -1,4 +1,4 @@
-name: PR Check
+name: Verify Build
 on:
   push:
     branches: 
