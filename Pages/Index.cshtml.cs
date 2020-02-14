@@ -19,7 +19,7 @@ namespace DependencyFlow.Pages
             _client = client;
         }
 
-        public IReadOnlyList<(string Name, int Id)> Channels { get; private set; }
+        public IReadOnlyList<(string Name, int Id)>? Channels { get; private set; }
 
         public async Task OnGet()
         {

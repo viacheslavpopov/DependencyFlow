@@ -23,8 +23,8 @@ namespace DependencyFlow.Pages
             _logger = logger;
         }
 
-        public IReadOnlyList<IncomingRepo> IncomingRepositories { get; private set; }
-        public RateLimit CurrentRateLimit { get; private set; }
+        public IReadOnlyList<IncomingRepo>? IncomingRepositories { get; private set; }
+        public RateLimit? CurrentRateLimit { get; private set; }
 
         public async Task OnGet(int channelId, string owner, string repo)
         {
@@ -38,31 +38,28 @@ namespace DependencyFlow.Pages
             {
                 var build = graph.Builds[dep.BuildId.ToString()];
 
-                GitHubInfo gitHubInfo = null;
+                GitHubInfo? gitHubInfo = null;
                 if (!string.IsNullOrEmpty(build.GitHubRepository))
                 {
                     var match = _repoParser.Match(build.GitHubRepository);
                     if (match.Success)
                     {
-                        gitHubInfo = new GitHubInfo()
-                        {
-                            Owner = match.Groups["owner"].Value,
-                            Repo = match.Groups["repo"].Value
-                        };
+                        gitHubInfo = new GitHubInfo(
+                            match.Groups["owner"].Value,
+                            match.Groups["repo"].Value);
                     }
                 }
 
                 var (commitDistance, commitAge) = await GetCommitInfo(gitHubInfo, build);
 
-                incoming.Add(new IncomingRepo()
-                {
-                    Build = build,
-                    ShortName = gitHubInfo?.Repo,
-                    CommitUrl = GetCommitUrl(build),
-                    BuildUrl = $"https://dev.azure.com/{build.AzureDevOpsAccount}/{build.AzureDevOpsProject}/_build/results?buildId={build.AzureDevOpsBuildId}&view=results",
-                    CommitDistance = commitDistance,
-                    CommitAge = commitAge
-                });
+                incoming.Add(new IncomingRepo(
+                    build,
+                    shortName: gitHubInfo?.Repo,
+                    commitDistance,
+                    GetCommitUrl(build),
+                    buildUrl: $"https://dev.azure.com/{build.AzureDevOpsAccount}/{build.AzureDevOpsProject}/_build/results?buildId={build.AzureDevOpsBuildId}&view=results",
+                    commitAge
+                ));
             }
             IncomingRepositories = incoming;
 
@@ -78,7 +75,7 @@ namespace DependencyFlow.Pages
             return $"{build.AzureDevOpsRepository}/commits?itemPath=%2F&itemVersion=GC{build.Commit}";
         }
 
-        private async Task<CompareResult> GetCommitsBehindAsync(GitHubInfo gitHubInfo, Build build)
+        private async Task<CompareResult?> GetCommitsBehindAsync(GitHubInfo gitHubInfo, Build build)
         {
             try
             {
@@ -94,7 +91,7 @@ namespace DependencyFlow.Pages
             }
         }
 
-        private async Task<(int?, DateTimeOffset?)> GetCommitInfo(GitHubInfo gitHubInfo, Build build)
+        private async Task<(int?, DateTimeOffset?)> GetCommitInfo(GitHubInfo? gitHubInfo, Build build)
         {
             DateTimeOffset? commitAge = build.DateProduced;
             int? commitDistance = null;
@@ -141,17 +138,33 @@ namespace DependencyFlow.Pages
 
     public class IncomingRepo
     {
-        public Build Build { get; set; }
-        public string ShortName { get; set; }
-        public int? CommitDistance { get; set; }
-        public string CommitUrl { get; set; }
-        public string BuildUrl { get; set; }
-        public DateTimeOffset? CommitAge { get; set; }
+        public Build Build { get; }
+        public string? ShortName { get; }
+        public int? CommitDistance { get; }
+        public string CommitUrl { get; }
+        public string BuildUrl { get; }
+        public DateTimeOffset? CommitAge { get; }
+
+        public IncomingRepo(Build build, string? shortName, int? commitDistance, string commitUrl, string buildUrl, DateTimeOffset? commitAge)
+        {
+            Build = build;
+            ShortName = shortName;
+            CommitDistance = commitDistance;
+            CommitUrl = commitUrl;
+            BuildUrl = buildUrl;
+            CommitAge = commitAge;
+        }
     }
 
     public class GitHubInfo
     {
-        public string Owner { get; set; }
-        public string Repo { get; set; }
+        public string Owner { get; }
+        public string Repo { get; }
+
+        public GitHubInfo(string owner, string repo)
+        {
+            Owner = owner;
+            Repo = repo;
+        }
     }
 }

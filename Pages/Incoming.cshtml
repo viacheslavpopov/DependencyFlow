@@ -13,8 +13,8 @@
         // If it's old and there are lots of commits, ruh-roh!
 
         string conditionClass;
-        string textClass = "text-white";
-        string linkClass = "link-light";
+        string? textClass = "text-white";
+        string? linkClass = "link-light";
         string statusIcon = "✔️";
 
         var elapsed = (incoming.CommitAge == null ? TimeSpan.FromDays(100) : DateTime.UtcNow - incoming.CommitAge.Value.UtcDateTime);
@@ -51,7 +51,7 @@
         </div>
 
         index += 1;
-        if(index % 3 == 0)
+        if (index % 3 == 0)
         {
             // Wrap every 3 cards
             <div class="w-100"></div>
@@ -59,7 +59,7 @@
     }
 </div>
 
-<small>Rate Limit Remaining: @Model.CurrentRateLimit.Remaining (Resets @Model.CurrentRateLimit.Reset.Humanize()) | @GetBuildInfo()</small>
+<small>Rate Limit Remaining: @GetRateLimitInfo(Model.CurrentRateLimit) | @GetBuildInfo()</small>
 
 @functions
 {
@@ -82,5 +82,12 @@
 
         var sha = Program.SourceVersion?.Substring(0, 6);
         return $"Built for branch {branch}@{sha}";
+    }
+
+    string GetRateLimitInfo(Octokit.RateLimit? rateLimit)
+    {
+        return rateLimit == null
+            ? "unknown"
+            : $"{rateLimit.Remaining}(Resets {rateLimit.Reset.Humanize()})";
     }
 }

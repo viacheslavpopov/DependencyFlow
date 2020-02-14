@@ -4,6 +4,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <OpenApiGenerateCodeOnBuild>false</OpenApiGenerateCodeOnBuild>
     <UserSecretsId>2ce3e74b-35f1-4ca9-8942-3a6e751de6e0</UserSecretsId>
+    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>

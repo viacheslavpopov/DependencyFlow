@@ -9,8 +9,12 @@
     <div class="form-group">
         <label for="channelSelect">Channel</label>
         <select id="channelSelect" name="channelId">
-            @foreach(var channel in Model.Channels) {
-                <option value="@channel.Id">@channel.Name</option>
+            @if (Model.Channels != null)
+            {
+                @foreach (var channel in Model.Channels)
+                {
+                    <option value="@channel.Id">@channel.Name</option>
+                }
             }
         </select>
     </div>
