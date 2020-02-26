@@ -23,6 +23,11 @@ namespace DependencyFlow
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // If you need to test this locally you can get the tokens from
+            // AuthToken: (BAR) https://maestro-prod.westus2.cloudapp.azure.com/Account/Tokens
+            // GitHubToken: https://github.com/settings/tokens (no auth scopes needed)
+            //
+            // Use User-Secrets to put your tokens in config.
             services.AddHttpClient<swaggerClient>(client =>
             {
                 var authToken = Configuration["AuthToken"];

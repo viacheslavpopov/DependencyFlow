@@ -50,6 +50,11 @@ namespace DependencyFlow.Pages
                     }
                 }
 
+                if (!IncludeRepo(gitHubInfo))
+                {
+                    continue;
+                }
+
                 var (commitDistance, commitAge) = await GetCommitInfo(gitHubInfo, build);
 
                 incoming.Add(new IncomingRepo(
@@ -64,6 +69,19 @@ namespace DependencyFlow.Pages
             IncomingRepositories = incoming;
 
             CurrentRateLimit = _github.GetLastApiInfo().RateLimit;
+        }
+
+        private bool IncludeRepo(GitHubInfo? gitHubInfo)
+        {
+            if (string.Equals(gitHubInfo?.Owner, "dotnet", StringComparison.OrdinalIgnoreCase) &&
+                string.Equals(gitHubInfo?.Repo, "blazor", StringComparison.OrdinalIgnoreCase))
+            {
+                // We don't want to track dependency staleness of the Blazor repo
+                // because it's not part of our process of automated dependency PRs.
+                return false;
+            }
+
+            return true;
         }
 
         private string GetCommitUrl(Build build)
