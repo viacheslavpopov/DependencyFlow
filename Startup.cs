@@ -49,6 +49,10 @@ namespace DependencyFlow
             });
 
             services.AddRazorPages();
+
+            var slaOptions = new SlaOptions();
+            Configuration.Bind("SLAs", slaOptions);
+            services.AddSingleton(slaOptions);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

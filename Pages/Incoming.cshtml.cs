@@ -16,12 +16,15 @@ namespace DependencyFlow.Pages
         private readonly GitHubClient _github;
         private readonly ILogger<IncomingModel> _logger;
 
-        public IncomingModel(swaggerClient client, GitHubClient github, ILogger<IncomingModel> logger)
+        public IncomingModel(swaggerClient client, GitHubClient github, SlaOptions slaOptions, ILogger<IncomingModel> logger)
         {
             _client = client;
             _github = github;
+            SlaOptions = slaOptions;
             _logger = logger;
         }
+
+        public SlaOptions SlaOptions { get; }
 
         public IReadOnlyList<IncomingRepo>? IncomingRepositories { get; private set; }
         public RateLimit? CurrentRateLimit { get; private set; }
@@ -59,7 +62,7 @@ namespace DependencyFlow.Pages
 
                 incoming.Add(new IncomingRepo(
                     build,
-                    shortName: gitHubInfo?.Repo,
+                    shortName: gitHubInfo?.Repo ?? "",
                     commitDistance,
                     GetCommitUrl(build),
                     buildUrl: $"https://dev.azure.com/{build.AzureDevOpsAccount}/{build.AzureDevOpsProject}/_build/results?buildId={build.AzureDevOpsBuildId}&view=results",
@@ -157,13 +160,13 @@ namespace DependencyFlow.Pages
     public class IncomingRepo
     {
         public Build Build { get; }
-        public string? ShortName { get; }
+        public string ShortName { get; }
         public int? CommitDistance { get; }
         public string CommitUrl { get; }
         public string BuildUrl { get; }
         public DateTimeOffset? CommitAge { get; }
 
-        public IncomingRepo(Build build, string? shortName, int? commitDistance, string commitUrl, string buildUrl, DateTimeOffset? commitAge)
+        public IncomingRepo(Build build, string shortName, int? commitDistance, string commitUrl, string buildUrl, DateTimeOffset? commitAge)
         {
             Build = build;
             ShortName = shortName;

@@ -18,11 +18,11 @@
         string statusIcon = "✔️";
 
         var elapsed = (incoming.CommitAge == null ? TimeSpan.FromDays(100) : DateTime.UtcNow - incoming.CommitAge.Value.UtcDateTime);
-        if (incoming.CommitDistance == 0 || elapsed.TotalDays < 5)
+        if (incoming.CommitDistance == 0 || elapsed.TotalDays < Model.SlaOptions.GetForRepo(incoming.ShortName).WarningUnconsumedCommitAge)
         {
             conditionClass = "bg-primary";
         }
-        else if (elapsed.TotalDays < 7)
+        else if (elapsed.TotalDays < Model.SlaOptions.GetForRepo(incoming.ShortName).FailUnconsumedCommitAge)
         {
             statusIcon = "⚠";
             conditionClass = "bg-warning";
