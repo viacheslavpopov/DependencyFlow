@@ -29,29 +29,21 @@ namespace DependencyFlow.Pages
         public IReadOnlyList<IncomingRepo>? IncomingRepositories { get; private set; }
         public RateLimit? CurrentRateLimit { get; private set; }
 
+        public Build? Build { get; private set; }
+
         public async Task OnGet(int channelId, string owner, string repo)
         {
             var repoUrl = $"https://github.com/{owner}/{repo}";
             var latest = await _client.GetLatestAsync(repoUrl, null, null, channelId, null, null, false, ApiVersion10._20190116);
             var graph = await _client.GetBuildGraphAsync(latest.Id, (ApiVersion9)ApiVersion40._20190116);
-            latest = graph.Builds[latest.Id.ToString()];
+            Build = graph.Builds[latest.Id.ToString()];
 
             var incoming = new List<IncomingRepo>();
-            foreach (var dep in latest.Dependencies)
+            foreach (var dep in Build.Dependencies)
             {
                 var build = graph.Builds[dep.BuildId.ToString()];
 
-                GitHubInfo? gitHubInfo = null;
-                if (!string.IsNullOrEmpty(build.GitHubRepository))
-                {
-                    var match = _repoParser.Match(build.GitHubRepository);
-                    if (match.Success)
-                    {
-                        gitHubInfo = new GitHubInfo(
-                            match.Groups["owner"].Value,
-                            match.Groups["repo"].Value);
-                    }
-                }
+                var gitHubInfo = GetGitHubInfo(build);
 
                 if (!IncludeRepo(gitHubInfo))
                 {
@@ -65,7 +57,7 @@ namespace DependencyFlow.Pages
                     shortName: gitHubInfo?.Repo ?? "",
                     commitDistance,
                     GetCommitUrl(build),
-                    buildUrl: $"https://dev.azure.com/{build.AzureDevOpsAccount}/{build.AzureDevOpsProject}/_build/results?buildId={build.AzureDevOpsBuildId}&view=results",
+                    buildUrl: GetBuildUrl(build),
                     commitAge
                 ));
             }
@@ -73,6 +65,28 @@ namespace DependencyFlow.Pages
 
             CurrentRateLimit = _github.GetLastApiInfo().RateLimit;
         }
+
+        public GitHubInfo? GetGitHubInfo(Build? build)
+        {
+            GitHubInfo? gitHubInfo = null;
+            if (!string.IsNullOrEmpty(build?.GitHubRepository))
+            {
+                var match = _repoParser.Match(build.GitHubRepository);
+                if (match.Success)
+                {
+                    gitHubInfo = new GitHubInfo(
+                        match.Groups["owner"].Value,
+                        match.Groups["repo"].Value);
+                }
+            }
+
+            return gitHubInfo;
+        }
+
+        public string GetBuildUrl(Build? build)
+            => build == null 
+                ? "(unknown)"
+                : $"https://dev.azure.com/{build.AzureDevOpsAccount}/{build.AzureDevOpsProject}/_build/results?buildId={build.AzureDevOpsBuildId}&view=results";
 
         private bool IncludeRepo(GitHubInfo? gitHubInfo)
         {
@@ -87,13 +101,15 @@ namespace DependencyFlow.Pages
             return true;
         }
 
-        private string GetCommitUrl(Build build)
+        public string GetCommitUrl(Build? build)
         {
-            if (!string.IsNullOrEmpty(build.GitHubRepository))
+            return build switch
             {
-                return $"{build.GitHubRepository}/commits/{build.Commit}";
-            }
-            return $"{build.AzureDevOpsRepository}/commits?itemPath=%2F&itemVersion=GC{build.Commit}";
+                null => "unknown",
+                _ => string.IsNullOrEmpty(build.GitHubRepository)
+                       ? $"{build.AzureDevOpsRepository}/commits?itemPath=%2F&itemVersion=GC{build.Commit}"
+                       : $"{build.GitHubRepository}/commits/{build.Commit}",
+            };
         }
 
         private async Task<CompareResult?> GetCommitsBehindAsync(GitHubInfo gitHubInfo, Build build)
