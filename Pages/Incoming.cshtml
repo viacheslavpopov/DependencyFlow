@@ -1,6 +1,8 @@
 ﻿@page "/incoming/{channelId}/{owner}/{repo}"
 @model IncomingModel
 
+<small>Based on <a href="@Model.GetCommitUrl(Model.Build)">@Model.GetGitHubInfo(Model.Build)?.Repo/@Model.Build?.GitHubBranch@@@Model.Build?.Commit.Substring(0, 6)</a> build <a href="@Model.GetBuildUrl(Model.Build)">@Model.Build?.AzureDevOpsBuildNumber</a></small>
+
 <div class="card-deck">
     @{
         var index = 0;
