@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Net;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Humanizer;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.Extensions.Logging;
 using Octokit;
@@ -84,7 +85,7 @@ namespace DependencyFlow.Pages
         }
 
         public string GetBuildUrl(Build? build)
-            => build == null 
+            => build == null
                 ? "(unknown)"
                 : $"https://dev.azure.com/{build.AzureDevOpsAccount}/{build.AzureDevOpsProject}/_build/results?buildId={build.AzureDevOpsBuildId}&view=results";
 
@@ -109,6 +110,15 @@ namespace DependencyFlow.Pages
                 _ => string.IsNullOrEmpty(build.GitHubRepository)
                        ? $"{build.AzureDevOpsRepository}/commits?itemPath=%2F&itemVersion=GC{build.Commit}"
                        : $"{build.GitHubRepository}/commits/{build.Commit}",
+            };
+        }
+
+        public string GetDateProduced(Build? build)
+        {
+            return build switch
+            {
+                null => "unknown",
+                _ => build.DateProduced.Humanize()
             };
         }
 
