@@ -19,7 +19,7 @@
         string? linkClass = "link-light";
         string statusIcon = "✔️";
 
-        var elapsed = (incoming.CommitAge == null ? TimeSpan.FromDays(100) : DateTime.UtcNow - incoming.CommitAge.Value.UtcDateTime);
+        var elapsed = DateTime.UtcNow - incoming.CommitAge.UtcDateTime;
         if (incoming.CommitDistance == 0 || elapsed.TotalDays < Model.SlaOptions.GetForRepo(incoming.ShortName).WarningUnconsumedCommitAge)
         {
             conditionClass = "bg-primary";
